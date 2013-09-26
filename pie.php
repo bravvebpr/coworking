@@ -27,11 +27,11 @@
                     Para ello rellena el siguiente formulario:
                 </span>
                 <form name="formulario" id="formulario" action="correos/envio_correos.php" method="post">
-                    <span class="txt_form">Nombre de tu amigo:</span> <input type="text" class="inp_form" name="nombre_a"><br/>
-                    <span class="txt_form">Tu nombre:</span> <input type="text" class="inp_form" name="nombre_p"><br/>
-                    <span class="txt_form">Correo de tu amigo:</span> <input type="text" class="inp_form" name="correo"><br/>
+                    <span class="txt_form">Nombre de tu amigo:</span> <input type="text" class="inp_form" name="nombre_a" id="nombre_a"><br/>
+                    <span class="txt_form">Tu nombre:</span> <input type="text" class="inp_form" name="nombre_p" id="nombre_p"><br/>
+                    <span class="txt_form">Correo de tu amigo:</span> <input type="text" class="inp_form" name="correo" id="correo"><br/>
                     <span class="txt_form">Localidad:</span> 
-                    <select class="inp_form">
+                    <select name="localidad" id="localidad" class="inp_form">
                         <option value="1">Leganés</option>
                         <option value="2">Madrid</option>
                     </select><br/>
