@@ -23,7 +23,7 @@
                     Env&iacute;a un email a los conocidos con este problema para darles un toque de atenci&oacute;n y practiquen co-worwing.<br/>
                     Para ello rellena el siguiente formulario:
                 </span>
-                <form name="formulario" id="formulario">
+                <form name="formulario" id="formulario" action="correos/envio_correos.php" method="post">
                     <span class="txt_form">Nombre de tu amigo:</span> <input type="text" class="inp_form" name="nombre_a"><br/>
                     <span class="txt_form">Tu nombre:</span> <input type="text" class="inp_form" name="nombre_p"><br/>
                     <span class="txt_form">Correo de tu amigo:</span> <input type="text" class="inp_form" name="correo"><br/>
@@ -32,7 +32,7 @@
                         <option value="1">Leganés</option>
                         <option value="2">Madrid</option>
                     </select><br/>
-                    <input type="hidden" name="img_select" value="">
+                    <input type="hidden" name="img_select" id="img_select" value="correo2">
                     <div class="miniaturas" style="margin-left: 0px;">
                         <img src="img/miniatura_1.png" alt=""><br/>
                         <a href="#">+ ver ejemplo</a>
