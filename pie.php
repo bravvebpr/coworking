@@ -6,8 +6,10 @@
         <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="lib/jquery-1.7.2.min.js"></script>
         <script src="lib/colocacion.js"></script>
+        <script src="lib/animaciones.js"></script>
+        <script src="lib/validar.js"></script>
     </head>
     <body>
         <div class="pie">
@@ -37,7 +39,7 @@
                     <?php
                     for($x=2;$x<=4;$x++){
                         echo '<div class="miniaturas" style="margin-left: 0px;">
-                                  <img src="img/miniatura_'.$x.'jpg" alt=""><br/>
+                                  <img src="img/miniatura_'.$x.'.jpg" alt=""><br/>
                                   <a href="#" id="'.$x.'">+ ver ejemplo</a>
                               </div>';
                     }

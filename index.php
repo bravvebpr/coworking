@@ -7,8 +7,8 @@
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
         <script> var control=0; var animaciones=1;</script>
-        <script src="lib/jquery-1.7.2.min.js"></script>
         <script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
+        <script src="lib/jquery-1.7.2.min.js"></script>
         <script src="lib/colocacion.js"></script>
         <script src="lib/animaciones.js"></script>
         <script src="lib/jquery.jrumble.1.3.min.js"></script>
