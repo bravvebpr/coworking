@@ -17,7 +17,8 @@
             <div class="contenedor_pie">
                 <div class="pop-up"></div>
                 <div class="imagen_pop-up">
-                    <img alt="" id="img_pop_gr" src="img/grande_2.jpg">
+                    <div class="cerrar" id="cerrar">X</div>
+                    <img alt="" id="img_pop_gr" src="">
                 </div>
                 
                 <span class="idea">Si conoces a alguien en esta situaci&oacute;n, ayudale, lo est&aacute; pidiendo a gritos.</span>
@@ -35,7 +36,7 @@
                         <option value="1">Leganés</option>
                         <option value="2">Madrid</option>
                     </select><br/>
-                    <input type="hidden" name="img_select" id="img_select" value="correo2">
+                    <input type="hidden" name="img_select" id="img_select" value="">
                     <br/>
                    <!--pintamos las miniaturas-->
                     <?php
@@ -49,7 +50,7 @@
                   
                    <div class="limpiar"></div>
                     <br/>
-                    <input type="submit" value="ENVIAR">
+                    <input type="submit" value="ENVIAR" onclick="validarForm();">
                 </form>
                 <div class="limpiar"></div>
                 <span class="idea">Una idea original de <a href="http://compartiroficinamadrid.es/" target="_blank"><strong>www.freelandstudio.com</strong></a></span>
