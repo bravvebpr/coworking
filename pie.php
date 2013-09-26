@@ -8,15 +8,16 @@
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
         <script src="lib/jquery-1.7.2.min.js"></script>
         <script src="lib/colocacion.js"></script>
-        <script src="lib/animaciones.js"></script>
+<!--        <script src="lib/animaciones.js"></script>-->
         <script src="lib/validar.js"></script>
+        <script src="lib/selector_cartel.js"></script>
     </head>
     <body>
         <div class="pie">
             <div class="contenedor_pie">
                 <div class="pop-up"></div>
                 <div class="imagen_pop-up">
-                    <img src="" alt="" id="img_pop_gr">
+                    <img alt="" id="img_pop_gr" src="img/grande_2.jpg">
                 </div>
                 
                 <span class="idea">Si conoces a alguien en esta situaci&oacute;n, ayudale, lo est&aacute; pidiendo a gritos.</span>
@@ -35,15 +36,19 @@
                         <option value="2">Madrid</option>
                     </select><br/>
                     <input type="hidden" name="img_select" id="img_select" value="correo2">
+                    <br/>
                    <!--pintamos las miniaturas-->
                     <?php
-                    for($x=2;$x<=4;$x++){
-                        echo '<div class="miniaturas" style="margin-left: 0px;">
-                                  <img src="img/miniatura_'.$x.'.jpg" alt=""><br/>
-                                  <a href="#" id="'.$x.'">+ ver ejemplo</a>
+                    for($x=2;$x<=5;$x++){
+                        echo '<div class="miniaturas">
+                                  <img src="img/miniatura_'.$x.'.jpg" id="cart_'.$x.'" alt=""><br/>
+                                  <a href="#" id="ver_'.$x.'">+ ver ejemplo</a>
                               </div>';
                     }
                     ?>
+                  
+                   <div class="limpiar"></div>
+                    <br/>
                     <input type="submit" value="ENVIAR">
                 </form>
                 <div class="limpiar"></div>

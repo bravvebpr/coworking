@@ -308,7 +308,7 @@ left: -1000px;
 }
 .miniaturas{
     float: left;
-    margin-left: 70px;
+    margin-left: 40px;
 }
 .miniaturas img{
     -webkit-border-radius: 8px;
