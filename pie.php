@@ -27,12 +27,13 @@
                     Env&iacute;a un email a los conocidos con este problema para darles un toque de atenci&oacute;n y practiquen co-worwing.<br/>
                     Para ello rellena el siguiente formulario:
                 </span>
-                <form name="formulario" id="formulario" action="correos/envio_correos.php" method="post">
+                <form action="correos/envio_correos.php" method="post">
                     <span class="txt_form">Nombre de tu amigo:</span> <input type="text" class="inp_form" name="nombre_a" id="nombre_a"><br/>
                     <span class="txt_form">Tu nombre:</span> <input type="text" class="inp_form" name="nombre_p" id="nombre_p"><br/>
                     <span class="txt_form">Correo de tu amigo:</span> <input type="text" class="inp_form" name="correo" id="correo"><br/>
                     <span class="txt_form">Localidad:</span> 
                     <select name="localidad" id="localidad" class="inp_form">
+                        <option value="">--Seleccionar--</option>
                         <option value="1">Leganés</option>
                         <option value="2">Madrid</option>
                     </select><br/>
@@ -50,7 +51,7 @@
                   
                    <div class="limpiar"></div>
                     <br/>
-                    <input type="submit" value="ENVIAR" onclick="validarForm();">
+                    <input type="button" value="ENVIAR" onclick="validarForm(this.form);">
                 </form>
                 <div class="limpiar"></div>
                 <span class="idea">Una idea original de <a href="http://compartiroficinamadrid.es/" target="_blank"><strong>www.freelandstudio.com</strong></a></span>
