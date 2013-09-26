@@ -338,3 +338,10 @@ left: -1000px;
     margin-left: 100px;
     display: none;
 }
+.cerrar{
+    float: right;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
