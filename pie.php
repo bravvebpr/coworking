@@ -14,7 +14,7 @@
             <div class="contenedor_pie">
                 <div class="pop-up"></div>
                 <div class="imagen_pop-up">
-                    <img src="img/miniatura_g.png" alt="">
+                    <img src="" alt="" id="img_pop_gr">
                 </div>
                 
                 <span class="idea">Si conoces a alguien en esta situaci&oacute;n, ayudale, lo est&aacute; pidiendo a gritos.</span>
@@ -33,22 +33,15 @@
                         <option value="2">Madrid</option>
                     </select><br/>
                     <input type="hidden" name="img_select" id="img_select" value="correo2">
-                    <div class="miniaturas" style="margin-left: 0px;">
-                        <img src="img/miniatura_1.png" alt=""><br/>
-                        <a href="#">+ ver ejemplo</a>
-                    </div>
-                    <div class="miniaturas">
-                        <img src="img/miniatura_1.png" alt=""><br/>
-                        <a href="#">+ ver ejemplo</a>
-                    </div>
-                    <div class="miniaturas">
-                        <img src="img/miniatura_1.png" alt=""><br/>
-                        <a href="#">+ ver ejemplo</a>
-                    </div>
-                    <div class="miniaturas">
-                        <img src="img/miniatura_1.png" alt=""><br/>
-                        <a href="#">+ ver ejemplo</a>
-                    </div>
+                   <!--pintamos las miniaturas-->
+                    <?php
+                    for($x=2;$x<=4;$x++){
+                        echo '<div class="miniaturas" style="margin-left: 0px;">
+                                  <img src="img/miniatura_'.$x.'jpg" alt=""><br/>
+                                  <a href="#" id="'.$x.'">+ ver ejemplo</a>
+                              </div>';
+                    }
+                    ?>
                     <input type="submit" value="ENVIAR">
                 </form>
                 <div class="limpiar"></div>
