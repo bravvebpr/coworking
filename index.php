@@ -36,14 +36,10 @@
                 <div class="limpiar"></div>
             </div>
         </div>
-        <div id="carga_2"></div>
-        <div class="limpiar"></div>
-        <div id="carga_3"></div>
-        <div class="limpiar"></div>
-        <div id="carga_4"></div>
-        <div class="limpiar"></div>
-        <div id="carga_5"></div>
-        <div class="limpiar"></div>
-        <div id="carga_pie"></div>
+        <?php include 'cartel_2.php'; ?>
+        <?php include 'cartel_3.php'; ?>
+        <?php include 'cartel_4.php'; ?>
+        <?php include 'cartel_5.php'; ?>
+        <?php include 'pie.php'; ?>
     </body>
 </html>
