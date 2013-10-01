@@ -13,7 +13,7 @@
         <script src="lib/prettify.js"></script>
     </head>
     <body>
-        <div class="cartel_4">
+        <div class="cartel_4" id="cartel_4">
             <div class="contenedor_4">
                 <div>
                     <?php for($x=0; $x<4; $x++)

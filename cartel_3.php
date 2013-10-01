@@ -15,7 +15,7 @@
         
     </head>
     <body>
-        <div class="cartel_3">
+        <div class="cartel_3" id="cartel_3">
             <div class="contenedor_3">
                 <div>
                     <div id="girar">

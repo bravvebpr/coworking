@@ -12,7 +12,7 @@
         <script src="lib/colocacion.js"></script>
     </head>
     <body>
-        <div class="cartel_5">
+        <div class="cartel_5" id="cartel_5">
             <div class="contenedor_5">
                 <div>
                     <div style="float: left;">

@@ -13,7 +13,7 @@
         <script src="lib/selector_cartel.js"></script>
     </head>
     <body>
-        <div class="pie">
+        <div class="pie" id="pie">
             <div class="contenedor_pie">
                 <div class="pop-up"></div>
                 <div class="imagen_pop-up">

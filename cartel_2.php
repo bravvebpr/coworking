@@ -11,7 +11,7 @@
         <script src="lib/animaciones.js"></script>
     </head>
     <body>
-        <div class="cartel_2">
+        <div class="cartel_2" id="cartel_2">
             <div class="contenedor_2">
                 
                 <div style="float: left; width: 332px; margin-top: 60px;">
