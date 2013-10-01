@@ -290,13 +290,7 @@ left: -1000px;
     width: 1000px;
     margin: 0 auto;
 }
-.gritos{
-    float: right;
-    margin-top: -50px;
-    color: #FFF;
-    font-size: 23px;
-    letter-spacing: 2px;
-}
+
 .idea{
     color: #FFF;
     font-size: 20px;
@@ -311,9 +305,6 @@ left: -1000px;
     margin-left: 40px;
 }
 .miniaturas img{
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
     border: solid 2px white;
     cursor: pointer;
 }
@@ -353,36 +344,98 @@ left: -1000px;
     background-color: #62d5f7;
     text-align: center;
     font-size: 38px;
-    border-radius: 2px;
     padding-bottom: 6px;
     padding-top: 7px;
+    border-radius: 2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px; 
 }
 
 .ayuda{
     font-family: 'Oswald', sans-serif;
     color: #62d5f7;
     text-align: center;
-    font-size: 38px;
-    border-radius: 2px;
-    padding-bottom: 6px;
-    padding-top: 7px;
+    font-size: 70px;
+    font-weight: bold;
 }
 
+.gritos{
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+    float: left;
+    margin-top: 11px;
+    font-size: 39px;
+    font-weight: bold;
+    margin-left: 14px;
+}
 
+.contenedor_log{
+    background-color: #ffffff;
+    border-radius: 7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    height: 755px;
+}
 
+.titulo_cont{
+    font-family: 'Oswald', sans-serif;
+    color: #62d5f7;
+    text-align: center;
+    font-size: 47px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
+.interrogacion_1{
+    font-size: 57px;
+    letter-spacing: -11px;
+}
 
+.interrogacion_2{
+    font-size: 50px;
+    margin-left: -9px;
+}
 
+.texto_1{
+    padding-left: 44px;
+    font-size: 15px;
+    padding-bottom: 44px;
+    color: #606060;
+}
+.titulo_cartel{
+    font-weight: bold;
+    font-size: 13px;
+    color: #999999; 
+}
 
+.img_pie{
+    padding-left: 27px;
+    padding-bottom: 30px;
+}
 
+.img_miniatura{
+    padding-bottom: 20px;
+    
+}
 
+.formulary{
+    padding-left: 45px;
+}
 
+.boton_ayudar{
+   padding-left: 365px;
+   padding-top: 26px
+}
 
-
-
-
-
-
-
-
-
-
+.boton_ayudar input{
+    background-color: #62d5f7;
+    color: #fff;
+    padding-bottom: 7px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    font-size: 19px;
+    border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px; 
+}
