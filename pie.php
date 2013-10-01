@@ -20,8 +20,11 @@
                     <div class="cerrar" id="cerrar">X</div>
                     <img alt="" id="img_pop_gr" src="">
                 </div>
-                
-                <span class="idea">Si conoces a alguien en esta situaci&oacute;n, ayudale, lo est&aacute; pidiendo a gritos.</span>
+<!---------------------------------------------------------------------------->     
+
+
+                <h1 class="cabezera">SI CONOCES A ALG&Uacute;N AMIGO O FAMILIAR EN ESTA SITUACI&Oacute;N</h1>
+                <div class="ayuda">AY&Uacute;DALE</div>
                 <img src="img/megafono.png" alt="" ><br/>
                 <span class="idea">
                     Env&iacute;a un email a los conocidos con este problema para darles un toque de atenci&oacute;n y practiquen co-worwing.<br/>

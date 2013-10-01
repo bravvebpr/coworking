@@ -345,3 +345,44 @@ left: -1000px;
     font-weight: bold;
     cursor: pointer;
 }
+/*-----------------------PIE 2----------------------*/
+
+.cabezera{
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+    background-color: #62d5f7;
+    text-align: center;
+    font-size: 38px;
+    border-radius: 2px;
+    padding-bottom: 6px;
+    padding-top: 7px;
+}
+
+.ayuda{
+    font-family: 'Oswald', sans-serif;
+    color: #62d5f7;
+    text-align: center;
+    font-size: 38px;
+    border-radius: 2px;
+    padding-bottom: 6px;
+    padding-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
