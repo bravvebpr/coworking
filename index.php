@@ -6,13 +6,14 @@
         <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
-        <script> var control=1; var animaciones=1;</script>
-        <script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
-        <script src="lib/jquery-1.7.2.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="lib/jquery.scrollExtend.min.js"></script>
         <script src="lib/colocacion.js"></script>
         <script src="lib/animaciones.js"></script>
-        <script src="lib/jquery.jrumble.1.3.min.js"></script>
-        <script src="lib/prettify.js"></script>
+        <script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
+        
+<!--        <script src="lib/jquery.jrumble.1.3.min.js"></script>
+        <script src="lib/prettify.js"></script>-->
     </head>
     <body>
         <div class="cartel_1">
@@ -21,7 +22,7 @@
                 <div class="titulo_1" id="ancla_1">
                    EL SER HUMANO TIENE 
                 </div>
-                <div class="rendimiento">
+                <div class="rendimiento" id="acdc_1">
                     <span style="font-size: 95px;">DE M&Aacute;XIMO</span><br/>
                     <span>RENDIMIENTO</span><br/>
                     <span style="font-size: 176px; line-height: 1;">AL DIA</span>
