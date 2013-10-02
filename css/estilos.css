@@ -44,9 +44,9 @@
 }
 .mano{
     position: absolute;
-z-index: 5;
-margin-top: 43px;
-left: -1000px;
+    z-index: 5;
+    margin-top: 43px;
+    left: -1000px;
 }
 .ocho{
     left: 320px;
@@ -125,7 +125,7 @@ left: -1000px;
     font-weight: bold;
     text-align: center;
     margin-top: -385px;
-   line-height: 31px;
+    line-height: 31px;
     color: #BF1213;
 }
 #girar{
@@ -302,7 +302,8 @@ left: -1000px;
 }
 .miniaturas{
     float: left;
-    margin-left: 40px;
+    margin-left: 20px;
+
 }
 .miniaturas img{
     border: solid 2px white;
@@ -399,7 +400,8 @@ left: -1000px;
 .texto_1{
     padding-left: 44px;
     font-size: 15px;
-    padding-bottom: 44px;
+    padding-bottom: 30px;
+    padding-right: 48px;
     color: #606060;
 }
 .titulo_cartel{
@@ -414,28 +416,76 @@ left: -1000px;
 }
 
 .img_miniatura{
-    padding-bottom: 20px;
-    
+    padding-left: 60px;
+    padding-bottom: 30px;
 }
 
 .formulary{
     padding-left: 45px;
 }
 
+
+
+.apartados_form1{
+    float: left;
+}
+
+.apartados_form2{
+    float: right; 
+    padding-right: 80px;
+}
+
+.apartados_form1 span{
+    font-size: 15px;
+    color: #606060;
+}
+
+.apartados_form2 span{
+    font-size: 15px;
+    color: #606060;
+}
+
+.apartados_form1 input{
+    background-color: #dee8eb;
+    border-radius: 7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border: none;
+}
+.apartados_form2 input{
+    background-color: #dee8eb;
+    border-radius: 7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border: none;
+}
+
 .boton_ayudar{
-   padding-left: 365px;
-   padding-top: 26px
+    text-align: center;
+    padding-top: 48px;
 }
 
 .boton_ayudar input{
-    background-color: #62d5f7;
+    background: #62d5f7;
     color: #fff;
     padding-bottom: 7px;
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 7px;
-    font-size: 19px;
-    border-radius: 10px;
-    -moz-border-radius:10px;
-    -webkit-border-radius:10px; 
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border: none;
+    text-shadow: -2px 1px 1px #3c8398;
+    font-size: 17px;
+    transition: background 0.4s;
+    -webkit-transition: background 0.4s; 
+}
+
+.boton_ayudar input:hover{
+   background: #17A8D3;
+}
+
+.mas{
+    
 }
