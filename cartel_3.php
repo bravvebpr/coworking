@@ -14,11 +14,10 @@
             </div>
             <?php for($x=1; $x<=27; $x++){
                 if ($x%2==0){
-                    echo '<img src="img/pizza_2.png" class="pizza" alt="">';
+                    echo '<img src="img/pizza_2.png" class="pizza_2" id=""alt="">';
                 }else{
                     echo '<img src="img/pizza.png" class="pizza" alt="">';
                 }
-
             }
             ?>
         </div>

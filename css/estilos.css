@@ -118,6 +118,11 @@ left: -1000px;
 .pizza:first-child{
     margin-left: 0px;
 }
+.pizza_2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: -1px;
+}
 .circulo_blanco{
 }
 .titulo_pizza{
