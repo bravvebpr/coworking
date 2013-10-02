@@ -7,13 +7,12 @@
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-        <script src="lib/jquery.scrollExtend.min.js"></script>
         <script src="lib/colocacion.js"></script>
         <script src="lib/animaciones.js"></script>
+        <script src="lib/jquery.scrollExtend.min.js"></script>
         <script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
-        
-<!--        <script src="lib/jquery.jrumble.1.3.min.js"></script>
-        <script src="lib/prettify.js"></script>-->
+        <script>animaciones=1;</script>
+        <script src="lib/jquery.jrumble.1.3.min.js"></script>
     </head>
     <body>
         <div class="cartel_1">
@@ -22,7 +21,8 @@
                 <div class="titulo_1" id="ancla_1">
                    EL SER HUMANO TIENE 
                 </div>
-                <div class="rendimiento" id="acdc_1">
+                <div id="acdc_1" style="position: absolute;"></div>
+                <div class="rendimiento">
                     <span style="font-size: 95px;">DE M&Aacute;XIMO</span><br/>
                     <span>RENDIMIENTO</span><br/>
                     <span style="font-size: 176px; line-height: 1;">AL DIA</span>
@@ -42,5 +42,6 @@
         <?php include 'cartel_4.php'; ?>
         <?php include 'cartel_5.php'; ?>
         <?php include 'pie.php'; ?>
+        
     </body>
 </html>
