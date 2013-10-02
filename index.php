@@ -8,6 +8,8 @@
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
         <script src="lib/colocacion.js"></script>
+        <script src="lib/validar.js"></script>
+        <script src="lib/selector_cartel.js"></script>
         <script src="lib/animaciones.js"></script>
         <script src="lib/jquery.scrollExtend.min.js"></script>
         <script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
