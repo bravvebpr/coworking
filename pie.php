@@ -48,9 +48,10 @@
                     <!--pintamos las miniaturas-->
                     <div class="img_miniatura">
                         <?php
+                        $titulosImagen= array("","","Si la tele es su perdici&oacuten","Si come entre horas","si ademas es ama de casa","Si le pasa todo lo anterior");
                         for ($x = 2; $x <= 5; $x++) {
                             echo '<div class="miniaturas">
-                                    <span class="titulo_cartel">Si le pasa todo lo anterior</span><br/>
+                                    <span class="titulo_cartel">'.$titulosImagen[$x].'</span><br/>
                                   <img src="img/miniatura_' . $x . '.jpg" id="cart_' . $x . '" alt=""><br/>
                                   <div class="mas_miniaturas">
                                   <img id="ver_'.$x.'" src="img/mas.png" alt="mas">
