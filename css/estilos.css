@@ -344,6 +344,8 @@
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    margin-top: -20px;
+    margin-left: -3px;
 }
 /*-----------------------PIE 2----------------------*/
 

@@ -2,8 +2,10 @@
     <div class="contenedor_pie">
         <div class="pop-up"></div>
         <div class="imagen_pop-up">
-            <div class="cerrar" id="cerrar">X</div>
-            <img alt="" id="img_pop_gr" src="">
+            <div class="cerrar" id="cerrar">
+                <img src="img/mas_pop-up.png" alt="">
+            </div>
+                <img alt="" id="img_pop_gr" src="">
         </div>
         <!---------------------------------------------------------------------------->     
 
