@@ -22,13 +22,13 @@
                 <strong style="color: #62d5f7;">1. Cu&eacute;ntale que es el coworking de una manera divertida.<br/></strong>
                 <span> 
                     El coworking es una forma de trabajo enfocada hacia la socializaci&oacute;n, colaboraci&oacute;n y rendimiento del freelance &oacute; aut&oacute;nomo.<br/>
-                    La soledad y falta de recursos de los emprendedores con lleva el fracaso a muchos de ellos, este es el motivo de que los espacios coworking est&eacute;n proliferando r&aacute;pidamente por toda España.
+                    La soledad y falta de recursos de los emprendedores conlleva el fracaso a muchos de ellos, este es el motivo de que los espacios coworking est&eacute;n proliferando r&aacute;pidamente por toda España.
                     Como todo concepto nuevo, la adopci&oacute;n del mismo pasa por la colaboraci&oacute;n y ayuda de todos, pero sobretodo por la identificaci&oacute;n del sujeto que precisa el servicio, para ello te damos 
                     a elegir entre tres divertidos emails q mandaremos a “tu emprendedor” de forma gratuita, con el &uacute;nico fin de ayudarle en su aventura.<br/>
                 </span>
                 <strong>Selecciona el email que m&aacute;s te guste...</strong>
             </div>
-            
+
             <br/>
             <!--pintamos las miniaturas-->
             <div class="img_miniatura">
@@ -67,7 +67,12 @@
                         <span>El nombre de tu amigo:</span> <input type="text" style="width: 265px;" name="nombre_a" id="nombre_a"><br/>
                     </div>
                     <div class="apartados_form2">
-                        <span>Lugar de residencia de tu amigo:</span> <input type="text" name="localidad" id="localidad"><br/><br/>
+                        <span>Lugar de residencia de tu amigo:</span> 
+                        <select type="text" name="localidad" id="localidad">
+                            <option selected>--- Seleccionar ---</option>
+                            <option>Madrid</option>
+                            <option>Leganes</option>
+                        </select><br/><br/>
                         <span>El email de tu amigo:</span> <input type="text" style="width: 252px;" name="correo" id="correo"><br/>
                     </div>
                 </div>
