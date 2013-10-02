@@ -411,7 +411,7 @@
 }
 
 .img_pie{
-    padding-left: 27px;
+    padding-left: 25px;
     padding-bottom: 30px;
 }
 
@@ -459,12 +459,10 @@
     -webkit-border-radius:7px;
     border: none;
 }
-
 .boton_ayudar{
     text-align: center;
     padding-top: 48px;
 }
-
 .boton_ayudar input{
     background: #62d5f7;
     color: #fff;
@@ -481,11 +479,25 @@
     transition: background 0.4s;
     -webkit-transition: background 0.4s; 
 }
-
 .boton_ayudar input:hover{
    background: #17A8D3;
 }
-
-.mas{
-    
+.mas_miniaturas{
+    float:right;
+}
+.mas_miniaturas img{
+    opacity: 0.8;
+    -webkit-opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    }
+.mas_miniaturas img:hover{
+    opacity:1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    filter:alpha(opacity=100);
 }

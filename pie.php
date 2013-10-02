@@ -43,7 +43,6 @@
                         </span>
                         <strong>Selecciona el email que m&aacute;s te guste...</strong>
                     </div>
-
                     <input type="hidden" name="img_select" id="img_select" value="">
                     <br/>
                     <!--pintamos las miniaturas-->
@@ -53,7 +52,10 @@
                             echo '<div class="miniaturas">
                                     <span class="titulo_cartel">Si le pasa todo lo anterior</span><br/>
                                   <img src="img/miniatura_' . $x . '.jpg" id="cart_' . $x . '" alt=""><br/>
-                                  <a href="#" id="ver_' . $x . '">+ ver ejemplo</a>
+                                  <div class="mas_miniaturas">
+                                  <img id="ver_'.$x.'" src="img/mas.png" alt="mas">
+                                  </div>
+                                  
                               </div>';
                         }
                         ?>
@@ -74,12 +76,12 @@
                     <form action="correos/envio_correos.php" method="post">
                         <div class="formulary">
                             <div class="apartados_form1">
-                            <span>Tu nombre:</span> <input type="text" style="width: 340px;" name="nombre_p" id="nombre_p"><br/><br/>
-                            <span>El nombre de tu amigo:</span> <input type="text" style="width: 265px;" name="nombre_a" id="nombre_a"><br/>
+                                <span>Tu nombre:</span> <input type="text" style="width: 340px;" name="nombre_p" id="nombre_p"><br/><br/>
+                                <span>El nombre de tu amigo:</span> <input type="text" style="width: 265px;" name="nombre_a" id="nombre_a"><br/>
                             </div>
                             <div class="apartados_form2">
-                            <span>Lugar de residencia de tu amigo:</span> <input type="text" name="localidad" id="localidad"><br/><br/>
-                            <span>El email de tu amigo:</span> <input type="text" style="width: 252px;" name="correo" id="correo"><br/>
+                                <span>Lugar de residencia de tu amigo:</span> <input type="text" name="localidad" id="localidad"><br/><br/>
+                                <span>El email de tu amigo:</span> <input type="text" style="width: 252px;" name="correo" id="correo"><br/>
                             </div>
                         </div>
                         <div class="limpiar"></div>
@@ -93,7 +95,3 @@
         </div>
     </body>
 </html>
-
-
-
-4ba1ba
