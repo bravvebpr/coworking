@@ -1,6 +1,6 @@
 <div class="cartel_3" id="cartel_3">
     <div class="contenedor_3">
-        <div id="acdc_3" style="position: absolute;height: 1px;width: 100%;margin-top: 200px"></div>
+        <div id="acdc_3" style="position: absolute;height: 1px;width: 10%;margin-top: 200px"></div>
         <div>
             <div id="girar">
                 <img src="img/circulo.png" class="circulo_blanco" alt="">
