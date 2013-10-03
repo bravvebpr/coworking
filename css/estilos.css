@@ -19,7 +19,7 @@
     color: #F34D25;
     background: #B7F5EC;
     padding-left: 13px;
-    font-size: 112px;
+    font-size: 111px;
     font-weight: bold;
     width: 1000px;
 }
@@ -461,28 +461,28 @@
     border-radius: 7px;
     -moz-border-radius:7px;
     -webkit-border-radius:7px;
-    border: solid 3px #dee8eb;
+    border: solid 1px #dee8eb;
     padding-left: 7px;
     padding-top: 2px;
     padding-bottom: 2px;
 }
 .apartados_form1 input:focus{
     box-shadow: 1px 1px 15px #17A8D3;
-    border: solid 3px #17A8D3;
+    border: solid 1px #17A8D3;
 }
 .apartados_form2 input{
     background: #dee8eb;
     border-radius: 7px;
     -moz-border-radius:7px;
     -webkit-border-radius:7px;
-    border: solid 3px #dee8eb;
+    border: solid 1px #dee8eb;
     padding-left: 7px;
     padding-top: 2px;
     padding-bottom: 2px;
 }
 .apartados_form2 input:focus{
     box-shadow: 1px 1px 15px #17A8D3;
-    border: solid 3px #17A8D3;
+    border: solid 1px #17A8D3;
 }
 .boton_ayudar{
     text-align: center;

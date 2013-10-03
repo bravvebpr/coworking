@@ -25,9 +25,9 @@
                 </div>
                 <div id="acdc_1" style="position: absolute;"></div>
                 <div class="rendimiento">
-                    <span style="font-size: 95px;">DE M&Aacute;XIMO</span><br/>
+                    <span style="font-size: 92px;">DE M&Aacute;XIMO</span><br/>
                     <span>RENDIMIENTO</span><br/>
-                    <span style="font-size: 176px; line-height: 1;">AL DIA</span>
+                    <span style="font-size: 169px; line-height: 1;">AL DIA</span>
                 </div>
                 <div class="horas">Horas</div>
                 <img src="img/mano.png" class="mano" alt="">
