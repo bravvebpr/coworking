@@ -1,24 +1,26 @@
 <div class="cartel_4" id="cartel_4">
     <div class="contenedor_4">
+       <!--<div id="acdc_4" style="position: absolute;height: 1px;width: 10%;margin-top: 200px"></div>-->
         <div>
             <?php for($x=0; $x<4; $x++)
-                echo '<img src="img/lavadora.png" alt="" class="lavadoras">'; 
+                echo '<div class="lavadoras_cont"><img src="img/lavadora.png" alt="" class="lavadoras"><img src="img/bombo.png" alt="" class="bombo"></div>';
             ?>
+            
         </div>
         <div style="float: left">
             <?php for($x=0; $x<2; $x++)
-                echo '<img src="img/lavadora.png" alt="" class="lavadoras">'; 
+                echo '<div class="lavadoras_cont"><img src="img/lavadora.png" alt="" class="lavadoras"><img src="img/bombo.png" alt="" class="bombo"></div>'; 
             ?>
         </div>
         <div class="contenido_lavadora">
-            <span class="letras_lavadoras">&Oacute; PONER</span> <span class="numero_lavadoras">11</span><br/>
-            <span class="letras_lavadoras">LAVADORAS</span> 
+            <span class="letras_lavadoras" id="poner">&Oacute; PONER</span> <span class="numero_lavadoras" id="num_lavadoras">11</span><br/>
+            <span class="letras_lavadoras" id="let_lavadoras">LAVADORAS</span> 
         </div>
-        <img src="img/lavadora.png" alt="" class="lavadoras" style="float: left">
+        <div class="lavadoras_cont"><img src="img/lavadora.png" alt="" class="lavadoras"><img src="img/bombo.png" alt="" class="bombo"></div>
          <div class="limpiar"></div>
          <div>
             <?php for($x=0; $x<4; $x++)
-                echo '<img src="img/lavadora.png" alt="" class="lavadoras">'; 
+                echo '<div class="lavadoras_cont"><img src="img/lavadora.png" alt="" class="lavadoras"><img src="img/bombo.png" alt="" class="bombo"></div>';
             ?>
         </div>
         <div class="limpiar"></div>

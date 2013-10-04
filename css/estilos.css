@@ -147,16 +147,19 @@
     width: 100%;
     padding-bottom: 20px;
     padding-top: 20px;
+    height: 748px;
 }
 .contenedor_4{
     width: 1000px;
     margin: 0 auto;
+    position: absolute;
+    z-index: 0;
 }
 .lavadoras:first-child{
     margin-left: 0px;
 }
 .lavadoras{
-    margin-left: 36px;
+    margin-left: 0px;
 }
 .contenido_lavadora{
     float: left;
@@ -170,17 +173,31 @@
     font-family: 'Oswald', sans-serif;
     color: #1bcada;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 0px;
 }
 .letras_lavadoras:last-child{
-    font-size: 50px
+    font-size: 0px
 }
 .numero_lavadoras{
     font-family: "Allstar Regular";
     color: #D85738;
-    font-size: 161px;
+    font-size: 0px;
     letter-spacing: -30px;
     margin-left: -10px;
+}
+.lavadoras_cont{
+    float: left;
+    margin-left: 36px;
+}
+.bombo{
+    position: absolute;
+    z-index: -10;
+    margin-left: -135px;
+    margin-top: 100px;
+}
+.lavadoras_cont:first-child{
+    float: left;
+    margin-left: 0px;
 }
 /*--------------------------------------------------------------------------------*/
 /*------------------------------------CARTEL 5------------------------------------*/
