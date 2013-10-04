@@ -19,7 +19,15 @@
     <body>
         <div class="cartel_1">
             <div class="contenedor_1">
-                <div class="header_1">cabecera_1</div>
+                <div class="header_1">
+                    <img src="img/header.png" alt="">
+                </div>
+                <div class="index_cabecera">
+                    <a href="#">Filosiof&iacute;a</a>
+                    <a href="#">Quienes somos</a>
+                    <a href="#">Contacto</a>
+                </div>
+                <div class="limpiar"></div>
                 <div class="titulo_1" id="ancla_1">
                    EL SER HUMANO TIENE 
                 </div>

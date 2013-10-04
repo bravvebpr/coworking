@@ -7,8 +7,34 @@
     padding-bottom: 80px;
 }
 .header_1{
-    height: 80px;
+    padding-top: 28px;
+    margin-bottom: 20px;
+    margin-left: -21px;    
 }
+.index_cabecera{
+    float: right;
+    background: #b7f5ec;
+    margin-top: -109px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 42px;
+    margin-right: -13px;
+
+}
+.index_cabecera a{
+    color: #f34d25;
+    margin-left:52px;
+    transition: color 0.4s;
+    -webkit-transition: color 0.4s; 
+    text-decoration: none;
+}
+.index_cabecera a:hover{
+    color: #ccc;
+    
+}
+
 .contenedor_1{
     width: 1000px;
     height: 772px;
@@ -366,16 +392,16 @@
 /*-----------------------PIE 2----------------------*/
 
 .cabezera{
-    font-family: 'Oswald', sans-serif;
-    color: #FFF;
-    background-color: #62d5f7;
+   font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: #62D5F7;
     text-align: center;
-    font-size: 38px;
+    font-size: 37px;
     padding-bottom: 6px;
     padding-top: 7px;
     border-radius: 2px;
-    -moz-border-radius:2px;
-    -webkit-border-radius:2px; 
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px
 }
 
 .ayuda{
@@ -388,10 +414,10 @@
 
 .gritos{
     font-family: 'Oswald', sans-serif;
-    color: #FFF;
+    color: white;
     float: left;
     margin-top: 11px;
-    font-size: 39px;
+    font-size: 36px;
     font-weight: bold;
     margin-left: 14px;
 }
