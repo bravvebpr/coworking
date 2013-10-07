@@ -9,7 +9,17 @@
 .header_1{
     padding-top: 28px;
     margin-bottom: 20px;
-    margin-left: -21px;    
+    margin-left: -21px;
+    width: 506px;
+}
+.header_1 strong{
+    font-weight: bold;
+    float: right;
+    margin-top: -46px;
+    color: #fff;
+        word-spacing: -1px;
+    letter-spacing: 3px;
+    font-size: 13px
 }
 .index_cabecera{
     float: right;

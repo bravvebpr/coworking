@@ -20,7 +20,8 @@
         <div class="cartel_1">
             <div class="contenedor_1">
                 <div class="header_1">
-                    <img src="img/header.png" alt="">
+                    <img src="img/megafono.png" alt="">
+                    <strong>Lo est&aacute; pidiedo a gritos</strong>
                 </div>
                 <div class="index_cabecera">
                     <a href="#">Filosiof&iacute;a</a>
