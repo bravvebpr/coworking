@@ -21,7 +21,7 @@
             <div class="contenedor_1">
                 <div class="header_1">
                     <img src="img/megafono.png" alt="">
-                    <strong>Lo est&aacute; pidiedo a gritos</strong>
+                    <i>Lo est&aacute; pidiedo a gritos</i>
                 </div>
                 <div class="index_cabecera">
                     <a href="#">Filosiof&iacute;a</a>

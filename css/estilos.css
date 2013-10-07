@@ -12,14 +12,13 @@
     margin-left: -21px;
     width: 506px;
 }
-.header_1 strong{
+.header_1 i{
     font-weight: bold;
     float: right;
     margin-top: -46px;
-    color: #fff;
-        word-spacing: -1px;
-    letter-spacing: 3px;
-    font-size: 13px
+    color: #fff;   
+    letter-spacing: 1px;
+    font-size: 16px
 }
 .index_cabecera{
     float: right;
