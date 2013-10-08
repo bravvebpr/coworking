@@ -19,15 +19,7 @@
     <body>
         <div class="cartel_1">
             <div class="contenedor_1">
-                <div class="header_1">
-                    <img src="img/megafono.png" alt="">
-                    <i>Lo est&aacute; pidiedo a gritos</i>
-                </div>
-                <div class="index_cabecera">
-                    <a href="#">Filosiof&iacute;a</a>
-                    <a href="#">Quienes somos</a>
-                    <a href="#">Contacto</a>
-                </div>
+               <?php include './cabecera.php'; ?>
                 <div class="limpiar"></div>
                 <div class="titulo_1" id="ancla_1">
                    EL SER HUMANO TIENE 
