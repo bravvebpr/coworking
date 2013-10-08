@@ -69,12 +69,15 @@
                         <span>El nombre de tu amigo:</span> <input type="text" style="width: 265px;" name="nombre_a" id="nombre_a"><br/>
                     </div>
                     <div class="apartados_form2">
-                        <span>Lugar de residencia de tu amigo:</span> 
-                        <select type="text" name="localidad" id="localidad">
-                            <option selected>--- Seleccionar ---</option>
-                            <option>Madrid</option>
-                            <option>Leganes</option>
-                        </select><br/><br/>
+                        <span>Lugar de residencia de tu amigo:</span>
+                        <div class="localidad">
+                            <select type="text" name="localidad" id="localidad">
+                                <option selected>--- Seleccionar ---</option>
+                                <option>Madrid</option>
+                                <option>Leganes</option>
+                            </select>
+                        </div>
+                            <br/><br/>
                         <span>El email de tu amigo:</span> <input type="text" style="width: 252px;" name="correo" id="correo"><br/>
                     </div>
                 </div>
