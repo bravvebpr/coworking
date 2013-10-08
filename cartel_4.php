@@ -1,6 +1,6 @@
 <div class="cartel_4" id="cartel_4">
     <div class="contenedor_4">
-       <div id="acdc_4" style="position:absolute;height: 1px;width: 100%;margin-top: 200px"></div>
+       
         <div>
             <?php for($x=0; $x<4; $x++)
                 echo '<div class="lavadoras_cont"><img src="img/lavadora.png" alt="" class="lavadoras"><img src="img/bombo.png" alt="" class="bombo"></div>';
@@ -25,4 +25,5 @@
         </div>
         <div class="limpiar"></div>
     </div>
+    <div id="acdc_4" style="position:absolute; height: 2px;width: 100%;margin-top: -450px"></div>
 </div>

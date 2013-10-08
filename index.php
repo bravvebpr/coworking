@@ -13,7 +13,7 @@
         <script src="lib/animaciones.js"></script>
         <script src="lib/jquery.scrollExtend.min.js"></script>
         <script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
-        <script>animaciones=1;</script>
+        <script>animaciones=1; reg_a=0;</script>
         <script src="lib/jquery.jrumble.1.3.min.js"></script>
     </head>
     <body>

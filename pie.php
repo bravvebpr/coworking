@@ -87,5 +87,8 @@
                 </div>
             </form>
             <div class="limpiar"></div>
+            <a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);window.location.href=('http://www.facebook.com/share.php?u='+dir+'&t='+tit2+'');"><img src="../img/icon/face.png" width="88" height="20" alt="Compartir" title="Da un clic para compartir esta página en Facebook"></a>
+            <a href="javascript:var dir=window.document.URL;var tit=window.document.title;var tit2=encodeURIComponent(tit);window.location.href=('http://twitter.com/?status='+tit2+'%20'+dir+' bla bla bla');"><img src="../img/icon/tweet.png" width="55" height="20" alt="Compartir" title="Da un clic para compartir esta página en Twitter"></a>
+            <a href="javascript:if(navigator.appName.indexOf('Netscape')!=-1){window.open('https://plus.google.com/share?url='+encodeURIComponent(location),'','width=600,height=460,menubar=no,location=no,status=no')}else{window.location.href='https://plus.google.com/share?url='+encodeURIComponent(location)}void0;"><img style="margin:4px;" src="../img/icon/compartir-g+.png" width="128" height="32" alt="Compartir en Google+" title="Compartir en Google+"></a>
         </div>
     </div>
