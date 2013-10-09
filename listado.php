@@ -19,8 +19,10 @@ $datos = mysql_query("SELECT * FROM centros");
         <link rel="stylesheet" type="text/css" href="css/demo_page.css">
         <link rel="stylesheet" type="text/css" href="css/demo_table_jui.css">
         <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.4.custom.css">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
         <script src="lib/jquery.dataTables.js"></script>
+        <script src="lib/panel_gest.js"></script>
         <script>
             $(document).ready(function() {
                 oTable = $('#example').dataTable({
@@ -29,8 +31,22 @@ $datos = mysql_query("SELECT * FROM centros");
                 });
             });
         </script>
+        <style>
+            #draggable {position: absolute;z-index: 1000;}
+        </style>
+        <script>
+            $(function() {
+              $( "#draggable" ).draggable();
+            });
+        </script>
     </head>
-    <body>
+    <body style="background: #F34D25;">
+        <div id="draggable">
+            
+        </div>
+        <header>
+            <img src="img/header.png"><input type="button" id="add_fila" value="Add" onclick="pop_up_add();">
+        </header>
         <table cellpadding="0" cellspacing="0" border="0" class="display dataTable" id="example" aria-describedby="example_info">
             <thead>
                 <tr role="row">
@@ -65,9 +81,10 @@ $datos = mysql_query("SELECT * FROM centros");
 </thead>
 <tbody role="alert" aria-live="polite" aria-relevant="all">
     <?php
+    $ident=1;
     while ($fila = mysql_fetch_array($datos)) {
         ?>
-        <tr>
+        <tr id="<?php echo $ident; ?>">
             <td><?php echo $fila['id']; ?></td>
             <td><?php echo $fila['localidad']; ?></td>
             <td><?php echo $fila['nombre']; ?></td>
@@ -78,7 +95,8 @@ $datos = mysql_query("SELECT * FROM centros");
             <td><?php echo $fila['url']; ?></td>
             <td>Editar Borrar</td>
         </tr>
-    <?php } ?>
+        
+    <?php $ident++;} ?>
 </tbody>
 </table>
 </body>

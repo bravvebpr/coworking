@@ -110,7 +110,6 @@ table.display thead th div.DataTables_sort_wrapper span {
 .dataTables_wrapper {
 	position: relative;
 	clear: both;
-        width: 1336px;
         margin: 0 auto;
 }
 
@@ -158,9 +157,9 @@ table.display {
 	margin: 0 auto;
 	clear: both;
 	border-collapse: collapse;
-        width: 1336px;
-         border: 1px solid #AAA;
-         border-bottom: none;
+        width: 100%;
+        border: 1px solid #AAA;
+        border-bottom: none;
 }
 
 table.display tfoot th {
