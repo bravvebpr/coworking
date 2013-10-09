@@ -65,8 +65,8 @@
                 <input type="hidden" name="img_select" id="img_select" value="">
                 <div class="formulary">
                     <div class="apartados_form1">
-                        <span>Tu nombre:</span> <input type="text" style="width: 340px;" name="nombre_p" id="nombre_p"><br/><br/>
-                        <span>El nombre de tu amigo:</span> <input type="text" style="width: 265px;" name="nombre_a" id="nombre_a"><br/>
+                        <span>Tu nombre:</span> <input type="text" style="width: 331px;" name="nombre_p" id="nombre_p"><br/><br/>
+                        <span>El nombre de tu amigo:</span> <input type="text" style="width: 250px;" name="nombre_a" id="nombre_a"><br/>
                     </div>
                     <div class="apartados_form2">
                         <span>Lugar de residencia de tu amigo:</span>
@@ -78,7 +78,7 @@
                             </select>
                         </div>
                             <br/><br/>
-                        <span>El email de tu amigo:</span> <input type="text" style="width: 252px;" name="correo" id="correo"><br/>
+                        <span>El email de tu amigo:</span> <input type="text" style="width: 252px;;" name="correo" id="correo"><br/>
                     </div>
                 </div>
                 <div class="limpiar"></div>

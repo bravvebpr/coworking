@@ -17,11 +17,11 @@
                 <form action="lib/envio_mensaje.php" method="post">
                     <input type="hidden" name="img_select" id="img_select" value="">
                     <div class="formulary">
-                        <div class="apartados_form1">
+                        <div class="apartados_form3">
                             <span>Email:</span> <input type="text" style="width: 345px;" name="email" id="email"><br/><br/>
                             <span>Asunto:</span> <input type="text" style="width: 334px;" name="asunto" id="asunto"><br/><br/>
                         </div>
-                        <div class="apartados_form2">
+                        <div class="apartados_form4">
                             <span>Nombre:</span> <input type="text" style="width: 252px;" name="nombre" id="nombre"><br/><br/>
                             <span>Telefono:</span> <input type="text" style="width: 244px;" name="number" id="number"><br/><br/>
                         </div>
