@@ -15,8 +15,7 @@ $mensaje = '<p><strong style="font-size:18px;">' . $_POST['nombre'] . '</strong>
   <p><strong style="font-size:18px;">Mensaje:</strong></br> ' . $_POST['mensaje'] . ' 
    ';
 if (mail($mail, $asunto, $mensaje, $headers)) {
-
-    echo $asunto;
+    
     echo $mensaje;
 }
 else
