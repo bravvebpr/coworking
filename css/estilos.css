@@ -478,7 +478,7 @@
     padding-bottom: 30px;
 }
 .formulary{
-    padding-left: 45px;
+   
 }
 .apartados_form1{
     float: left;
@@ -604,14 +604,22 @@
      background: #f34d25;
 }
 .cont_form{
-    
+    background: #FFF;
+    padding: 51px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    box-shadow: 0px 2px 34px #333;
+    border: solid 1px #333;
+    margin: auto;
+    width: 500px;
 }
 .apartados_form3{
-    float: left;
+    margin: auto;
+    width: 510px;
 }
 .apartados_form3 span{
-    font-size: 17px;
-    color: #dee8eb;
+    color: #000;
     font-weight: bold;
 }
 .apartados_form3 input{
@@ -625,30 +633,6 @@
     padding-bottom: 2px;
 }
 .apartados_form3 input:focus{
-    box-shadow: 1px 1px 15px #17A8D3;
-    border: solid 1px #17A8D3;
-}
-.apartados_form4{
-    float: right; 
-    padding-right: 80px;
-}
-.apartados_form4 span{
-    font-size: 17px;
-    color: #dee8eb;
-    font-weight: bold;
-}
-
-.apartados_form4 input{
-    background: #dee8eb;
-    border-radius: 7px;
-    -moz-border-radius:7px;
-    -webkit-border-radius:7px;
-    border: solid 1px #dee8eb;
-    padding-left: 7px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-.apartados_form4 input:focus{
     box-shadow: 1px 1px 15px #17A8D3;
     border: solid 1px #17A8D3;
 }
@@ -667,6 +651,7 @@
     padding-left: 7px;
     padding-top: 5px;
     padding-bottom: 2px;
+    resize: none;
    
 }
 .mensaje textarea:focus{
