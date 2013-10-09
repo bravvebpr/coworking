@@ -11,15 +11,15 @@
     </head>
     <body>
         <div class="pop_up_panel">
-            <div style="width: 100%; background: #ccc;" >asdasdasd</div>
-            <form>
-                Localidad<br/><input type="text"><br/>
-                Nombre<br/><input type="text"><br/>
-                Telefono<br/><input type="text"><br/>
-                Direccion<br/><input type="text"><br/>
-                Descripcion<br/><input type="text"><br/>
-                Imagen<br/><input type="text"><br/>
-                URL<br/><input type="text"><br/>
+            <div class="cabecera_pop_up">Crear nuevo centro <div class="cerrar_pop" onclick="desaparecer_pop();">X</div></div>
+            <form style="margin: 77px; margin-top: 50px; margin-bottom: 50px;" action="lib/insertar_f.php">
+                Localidad<br/><input type="text" name="localidad"><br/>
+                Nombre<br/><input type="text" name="nombre"><br/>
+                Telefono<br/><input type="text" name="tlf"><br/>
+                Direccion<br/><input type="text" name="direccion"><br/>
+                Descripcion<br/><input type="text" name="descripcion"><br/>
+                Imagen<br/><input type="text" name="imagen"><br/>
+                URL<br/><input type="text" name="url"><br/>
                 <input type="submit" value="GUARDAR">
             </form>
         </div>

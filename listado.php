@@ -81,10 +81,9 @@ $datos = mysql_query("SELECT * FROM centros");
 </thead>
 <tbody role="alert" aria-live="polite" aria-relevant="all">
     <?php
-    $ident=1;
     while ($fila = mysql_fetch_array($datos)) {
         ?>
-        <tr id="<?php echo $ident; ?>">
+        <tr id="<?php echo $fila['id']; ?>">
             <td><?php echo $fila['id']; ?></td>
             <td><?php echo $fila['localidad']; ?></td>
             <td><?php echo $fila['nombre']; ?></td>
@@ -93,10 +92,12 @@ $datos = mysql_query("SELECT * FROM centros");
             <td><?php echo $fila['descripcion']; ?></td>
             <td><?php echo $fila['imagen']; ?></td>
             <td><?php echo $fila['url']; ?></td>
-            <td>Editar Borrar</td>
+            <td>
+                <a href="#" onclick="pop_up_edt();">Editar</a>
+                <a href="lib/borrar_f.php?id=<?php echo $fila['id']; ?>">Borrar</a></td>
         </tr>
         
-    <?php $ident++;} ?>
+    <?php } ?>
 </tbody>
 </table>
 </body>
