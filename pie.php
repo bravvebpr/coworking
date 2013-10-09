@@ -66,7 +66,7 @@
                 <div class="formulary">
                     <div class="apartados_form1">
                         <span>Tu nombre:</span> <input type="text" style="width: 331px;" name="nombre_p" id="nombre_p"><br/><br/>
-                        <span>El nombre de tu amigo:</span> <input type="text" style="width: 250px;" name="nombre_a" id="nombre_a"><br/>
+                        <span>El nombre de tu amigo:</span> <input type="text" style="width: 258px;" name="nombre_a" id="nombre_a"><br/>
                     </div>
                     <div class="apartados_form2">
                         <span>Lugar de residencia de tu amigo:</span>

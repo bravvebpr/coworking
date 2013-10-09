@@ -486,8 +486,9 @@
 .apartados_form1 span{
     font-size: 15px;
     color: #656565;
+    margin-left: 45px;
 }
-.apartados_form1 input{
+.apartados_form1 input {
     background: #dee8eb;
     border-radius: 7px;
     -moz-border-radius:7px;

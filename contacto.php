@@ -10,7 +10,7 @@
         <script src="lib/validar.js"></script>
         <script src="lib/jquery.scrollExtend.min.js"></script>
     </head>
-    <body style="background: #f34d25;">
+    <body style="background: #f34d25; padding-top: 30px;">
         <div class="contenedor_contacto">
             <?php include './cabecera.php'; ?>
             <div class="cont_form">
