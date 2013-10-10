@@ -90,7 +90,7 @@ $datos = mysql_query("SELECT * FROM centros");
             <td><?php echo $fila['tlf']; ?></td>
             <td><?php echo $fila['direccion']; ?></td>
             <td><?php echo $fila['descripcion']; ?></td>
-            <td><?php echo $fila['imagen']; ?></td>
+            <td><img src="lib/<?php echo $fila['imagen']; ?>" style="width: 195px;height: 115px;"></td>
             <td><?php echo $fila['url']; ?></td>
             <td>
                 <a href="#" onclick="pop_up_edt(<?php echo $fila['id']; ?>);">Editar</a>
