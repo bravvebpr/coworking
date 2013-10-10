@@ -4,8 +4,8 @@
 //    header("Location: login.php");
 ?>
 <?php
-$conexion = mysql_connect("localhost", "proyecto", "proyecto");
-mysql_select_db("proyecto", $conexion);
+$conexion = mysql_connect("db496705092.db.1and1.com", "dbo496705092", "Anab5210");
+mysql_select_db("db496705092", $conexion);
 $datos = mysql_query("SELECT * FROM centros");
 ?>
 <!DOCTYPE html>
@@ -93,7 +93,7 @@ $datos = mysql_query("SELECT * FROM centros");
             <td><?php echo $fila['imagen']; ?></td>
             <td><?php echo $fila['url']; ?></td>
             <td>
-                <a href="#" onclick="pop_up_edt();">Editar</a>
+                <a href="#" onclick="pop_up_edt(<?php echo $fila['id']; ?>);">Editar</a>
                 <a href="lib/borrar_f.php?id=<?php echo $fila['id']; ?>">Borrar</a></td>
         </tr>
         

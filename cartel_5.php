@@ -31,7 +31,7 @@
          <img src="img/bombo.png" alt="" style="float: left; margin-right: -167px; margin-left: 89px; margin-top: -67px;" id="bombo_5">
          <img src="img/lavadora_5.png" alt="" class="lavadora_5" style="position: absolute; z-index: 10;">
          <img src="img/dormido.png" alt="" class="dormido" style="margin-left: 285px;">
-         <img src="img/baba.png" alt="" id="pompa" class="pompa" style="margin-left: -246px;">
+         <img src="img/baba.png" alt="" id="pompa" class="pompa">
          <img src="img/animacion_tele.gif" alt="" style="width: 135px;margin-top: -41px;margin-bottom: -43px;margin-left: 79px;float: left;">
          <img src="img/tele_5.png" alt="" class="television_5">
          <div class="limpiar"></div>
