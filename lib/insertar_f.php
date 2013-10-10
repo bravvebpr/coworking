@@ -1,4 +1,7 @@
 <?php
+$conexion = mysql_connect("db496705092.db.1and1.com", "dbo496705092", "Anab5210");
+mysql_select_db("db496705092", $conexion);
+
 if($_FILES ['uploadImage'][ 'size' ]){
 
 $str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
@@ -26,8 +29,6 @@ else{
 $nom_img="no hay imagen";
 
 }
-$conexion = mysql_connect("db496705092.db.1and1.com", "dbo496705092", "Anab5210");
-mysql_select_db("db496705092", $conexion);
 
 mysql_query("INSERT INTO `centros`(`localidad`, `nombre`, `tlf`, `direccion`, `descripcion`, `imagen`, `url`)
         VALUES('{$_POST['localidad']}','{$_POST['nombre']}','{$_POST['tlf']}','{$_POST['direccion']}','{$_POST['descripcion']}','$nom_img','{$_POST['url']}')");

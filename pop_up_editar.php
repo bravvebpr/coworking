@@ -18,7 +18,7 @@ $datos = mysql_query("SELECT * FROM centros WHERE id='{$_GET['id']}'");
         <div class="pop_up_panel">
 
             <div class="cabecera_pop_up">Editar un centro <div class="cerrar_pop" onclick="desaparecer_pop();">X</div></div>
-            <form style="margin: 77px; margin-top: 50px; margin-bottom: 50px;" action="lib/editar_f.php" method="POST">
+            <form style="margin: 77px; margin-top: 50px; margin-bottom: 50px;" action="lib/editar_f.php" method="POST" enctype="multipart/form-data">
                <?php $filae = mysql_fetch_array($datos) ?>
                 <input type="hidden" value="<?php echo $_GET['id']; ?>" name="id">
                 Localidad<br/><input type="text" name="localidad" value="<?php echo $filae['localidad']; ?>"><br/>
@@ -26,7 +26,7 @@ $datos = mysql_query("SELECT * FROM centros WHERE id='{$_GET['id']}'");
                 Telefono<br/><input type="text" name="tlf" value="<?php echo $filae['tlf']; ?>"><br/>
                 Direccion<br/><input type="text" name="direccion" value="<?php echo $filae['direccion']; ?>"><br/>
                 Descripcion<br/><input type="text" name="descripcion" value="<?php echo $filae['descripcion']; ?>"><br/>
-                Imagen<br/><input type="text" name="imagen" value="<?php echo $filae['imagen']; ?>"><br/>
+                <p>Subir Imagen:</p><p><input id="uploadImage" name="uploadImage" type="file" onChange="ver(newg.uploadImage.value);"/>
                 URL<br/><input type="text" name="url" value="<?php echo $filae['url']; ?>"><br/>
                 <input type="submit" value="GUARDAR" onclick="desaparecer_pop(<?php echo $_GET['id']; ?>);">
             </form>

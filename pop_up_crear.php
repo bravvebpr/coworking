@@ -12,7 +12,7 @@
     <body>
         <div class="pop_up_panel">
             <div class="cabecera_pop_up">Crear nuevo centro <div class="cerrar_pop" onclick="desaparecer_pop();">X</div></div>
-            <form style="margin: 77px; margin-top: 50px; margin-bottom: 50px;" action="lib/insertar_f.php" method="POST">
+            <form style="margin: 77px; margin-top: 50px; margin-bottom: 50px;" action="lib/insertar_f.php" method="POST" enctype="multipart/form-data">
                 Localidad<br/><input type="text" name="localidad"><br/>
                 Nombre<br/><input type="text" name="nombre"><br/>
                 Telefono<br/><input type="text" name="tlf"><br/>
