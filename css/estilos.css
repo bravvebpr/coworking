@@ -40,10 +40,8 @@
     text-decoration: none;
 }
 .index_cabecera a:hover{
-    color: #ccc;
-    
+    color: #238388;
 }
-
 .contenedor_1{
     width: 1000px;
     height: 772px;
@@ -100,7 +98,6 @@
 /*--------------------------------------------------------------------------------*/
 /*------------------------------------CARTEL 2-------------------------------------*/
 /*--------------------------------------------------------------------------------*/
-
 .cartel_2{
     background: #9be9dd;
     width: 100%;
@@ -655,9 +652,14 @@
     padding-top: 5px;
     padding-bottom: 2px;
     resize: none;
-   
 }
 .mensaje textarea:focus{
     box-shadow: 1px 1px 15px #17A8D3;
     border: solid 1px #17A8D3; 
+}
+/*-------------------- Quienes somos ---------------------*/
+.contenedor_historial{
+    width: 1000px;
+    margin: 0 auto;
+    background: #f34d25;
 }
