@@ -527,6 +527,7 @@
 .boton_ayudar{
     text-align: center;
     padding-top: 36px;
+    padding-bottom: 36px
 }
 .boton_ayudar input{
     background: #62d5f7;
@@ -614,6 +615,7 @@
     border: solid 1px #333;
     margin: auto;
     width: 500px;
+    padding-bottom: 0px;
 }
 .apartados_form3{
     margin: auto;
