@@ -8,7 +8,7 @@ echo mysql_error();
 $i_usuario = mysql_fetch_array($v_ses);
 if ($i_usuario != "") {
     session_start();
-    $_SESSION["usuario"] = $i_usuario['nombre'];
+    $_SESSION["usuario"] = $i_usuario['usuario'];
     ;
     header("Location: ../listado.php");
 }

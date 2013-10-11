@@ -25,10 +25,12 @@ $datos = mysql_query("SELECT * FROM centros WHERE id='{$_GET['id']}'");
                 Nombre<br/><input type="text" name="nombre" value="<?php echo $filae['nombre']; ?>"><br/>
                 Telefono<br/><input type="text" name="tlf" value="<?php echo $filae['tlf']; ?>"><br/>
                 Direccion<br/><input type="text" name="direccion" value="<?php echo $filae['direccion']; ?>"><br/>
-                Descripcion<br/><input type="text" name="descripcion" value="<?php echo $filae['descripcion']; ?>"><br/>
-                <p>Subir Imagen:</p><p><input id="uploadImage" name="uploadImage" type="file" onChange="ver(newg.uploadImage.value);"/>
+                Descripcion<br/><textarea class="text_frm" name="descripcion"><?php echo $filae['descripcion']; ?></textarea><br/>
+                Subir Imagen:<p><span><input id="uploadImage" value="<?php echo $filae['imagen']; ?>" name="uploadImage" style="height: 150px" type="file" onChange="ver(newg.uploadImage.value);"/></span>
+                    <span style="position: absolute; margin-top: -86px; margin-left: 147px;">&Oacute; arrastrala aqui</span>
                 URL<br/><input type="text" name="url" value="<?php echo $filae['url']; ?>"><br/>
                 <input type="submit" value="GUARDAR" onclick="desaparecer_pop(<?php echo $_GET['id']; ?>);">
+
             </form>
         </div>
     </body>

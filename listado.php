@@ -1,7 +1,7 @@
 <?php
-//session_start();
-//if ($_SESSION["usuario"] == "")
-//    header("Location: login.php");
+session_start();
+if ($_SESSION["usuario"] == "")
+    header("Location: login.php");
 ?>
 <?php
 $conexion = mysql_connect("db496705092.db.1and1.com", "dbo496705092", "Anab5210");
@@ -41,11 +41,12 @@ $datos = mysql_query("SELECT * FROM centros");
         </script>
     </head>
     <body style="background: #F34D25;">
-        <div id="draggable">
+        <div id="draggable" style="margin-left: 27%;">
             
         </div>
-        <header>
-            <img src="img/header.png"><input type="button" id="add_fila" value="Add" onclick="pop_up_add();">
+        <header style="text-align: center;">
+            <img src="img/header.png" style="margin: 0 auto;"><input class="btn_az" style="float: right;margin-top: 37px;margin-right: 37px;" type="button" id="add_fila" value="+ Crear centro" onclick="pop_up_add();">
+            <a href="lib/cerrar_sesion.php" style="float: left;">Cerrar sesion</a>
         </header>
         <table cellpadding="0" cellspacing="0" border="0" class="display dataTable" id="example" aria-describedby="example_info">
             <thead>
@@ -66,15 +67,15 @@ $datos = mysql_query("SELECT * FROM centros");
 <div class="DataTables_sort_wrapper">Direccion</div>
 </th>
 <th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending">
-<div class="DataTables_sort_wrapper">e-mail</div>
+<div class="DataTables_sort_wrapper">Descripcion</div>
 </th>
 <th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending">
 <div class="DataTables_sort_wrapper">Imagen</div>
 </th>
-<th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 300px!important;">
+<th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending">
 <div class="DataTables_sort_wrapper">URL</div>
 </th>
-<th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 300px!important;">
+<th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending">
 <div class="DataTables_sort_wrapper">Acciones</div>
 </th>
 </tr>
@@ -91,10 +92,10 @@ $datos = mysql_query("SELECT * FROM centros");
             <td><?php echo $fila['direccion']; ?></td>
             <td><?php echo $fila['descripcion']; ?></td>
             <td><img src="lib/<?php echo $fila['imagen']; ?>" style="width: 195px;height: 115px;"></td>
-            <td><?php echo $fila['url']; ?></td>
+            <td><a href="<?php echo $fila['url']; ?>"><?php echo $fila['url']; ?></a></td>
             <td>
-                <a href="#" onclick="pop_up_edt(<?php echo $fila['id']; ?>);">Editar</a>
-                <a href="lib/borrar_f.php?id=<?php echo $fila['id']; ?>">Borrar</a></td>
+                <a href="#" onclick="pop_up_edt(<?php echo $fila['id']; ?>);"><img src="img/edit.png" style="margin-right: 20px;"></a>
+                <a href="lib/borrar_f.php?id=<?php echo $fila['id']; ?>"><img src="img/delete.png"></a></td>
         </tr>
         
     <?php } ?>

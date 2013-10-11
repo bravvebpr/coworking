@@ -17,8 +17,11 @@
                 Nombre<br/><input type="text" name="nombre"><br/>
                 Telefono<br/><input type="text" name="tlf"><br/>
                 Direccion<br/><input type="text" name="direccion"><br/>
-                Descripcion<br/><input type="text" name="descripcion"><br/>
-                <p>Subir Imagen:</p><p><input id="uploadImage" name="uploadImage" type="file" onChange="ver(newg.uploadImage.value);"/>
+                Descripcion<br/><textarea class="text_frm" name="descripcion"></textarea><br/>
+                <div class="archivo">
+                    Subir Imagen:</p><p><span><input id="uploadImage" name="uploadImage" style="height: 150px" type="file" onChange="ver(newg.uploadImage.value);"/></span>
+                    <span style="position: absolute; margin-top: -86px; margin-left: 147px;">&Oacute; arrastrala aqui</span>
+                </div>
                 URL<br/><input type="text" name="url"><br/>
                 <input type="submit" value="GUARDAR">
             </form>

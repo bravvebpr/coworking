@@ -26,13 +26,18 @@ $nom_img=$destino . '/' .$cad.'.'.$tipo;
 
 else{
 
-$nom_img="no hay imagen";
+$nom_img="";
 
 }
-
+if($nom_img!=""){
 mysql_query("UPDATE `centros` SET `localidad`='{$_POST['localidad']}',`nombre`='{$_POST['nombre']}',`tlf`='{$_POST['tlf']}',
     `direccion`='{$_POST['direccion']}',`descripcion`='{$_POST['descripcion']}',`imagen`='$nom_img',`url`='{$_POST['url']}'
         WHERE id={$_POST['id']}");
+}else{
+    mysql_query("UPDATE `centros` SET `localidad`='{$_POST['localidad']}',`nombre`='{$_POST['nombre']}',`tlf`='{$_POST['tlf']}',
+    `direccion`='{$_POST['direccion']}',`descripcion`='{$_POST['descripcion']}',`url`='{$_POST['url']}'
+        WHERE id={$_POST['id']}");
+}
 
 $error=  mysql_error();
         mysql_close($conexion);
