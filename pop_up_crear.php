@@ -23,7 +23,7 @@
                     <span style="position: absolute; margin-top: -86px; margin-left: 117px; font-size: 12px;">Puedes arrastrar aqui o en el bot&oacute;n</span>
                 </div>
                 URL<br/><input type="text" name="url"><br/>
-                <input type="submit" value="GUARDAR">
+                <input type="submit" value="GUARDAR" onclick="validarPop_up_editor(this.form);">
             </form>
         </div>
     </body>

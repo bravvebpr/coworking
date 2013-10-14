@@ -98,7 +98,7 @@ $datos = mysql_query("SELECT * FROM centros");
                 <a href="lib/borrar_f.php?id=<?php echo $fila['id']; ?>"><img src="img/delete.png"></a></td>
         </tr>
         
-    <?php } ?>
+    <?php }mysql_close($conexion);  ?>
 </tbody>
 </table>
 </body>
