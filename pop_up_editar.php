@@ -31,7 +31,7 @@ $datos = mysql_query("SELECT * FROM centros WHERE id='{$_GET['id']}'");
                     <span style="position: absolute; margin-top: -86px; margin-left: 147px;">&Oacute; arrastrala aqui</span>
                     URL<br/><input type="text" name="url" value="<?php echo $filae['url']; ?>"><br/>
                     <input type="submit" value="GUARDAR" onclick="validarPop_up_editor(this.form);">
-            </form>
+            </form> 
         </div>
     </body>
 </html>
