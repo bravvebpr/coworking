@@ -164,3 +164,26 @@
 .btn_az:hover{
     background: #17A8D3;
 }
+A.linkcerr:link {
+    color: #62D5F7; text-decoration: none;
+    transition: color 0.4s;
+    -webkit-transition: color 0.4s;
+}
+A.linkcerr:visited {
+    color: #62D5F7; text-decoration: none;
+    transition: color 0.4s;
+    -webkit-transition: color 0.4s;
+} 
+A.linkcerr:hover {color: #009dcc; text-decoration: none;}
+A.linkcerr2:link {
+    color: #009dcc; text-decoration: none;
+    transition: color 0.4s;
+    -webkit-transition: color 0.4s;
+}
+
+A.linkcerr2:visited {
+    color: #009dcc; text-decoration: none;
+    transition: color 0.4s;
+    -webkit-transition: color 0.4s;
+} 
+A.linkcerr2:hover {color: #62D5F7; text-decoration: none;}

@@ -46,7 +46,7 @@ $datos = mysql_query("SELECT * FROM centros");
         </div>
         <header style="text-align: center;">
             <img src="img/header.png" style="margin: 0 auto;"><input class="btn_az" style="float: right;margin-top: 37px;margin-right: 37px;" type="button" id="add_fila" value="+ Crear centro" onclick="pop_up_add();">
-            <a href="lib/cerrar_sesion.php" style="float: left;">Cerrar sesion</a>
+            <a href="lib/cerrar_sesion.php" style="float: left; margin: 2%;" class="linkcerr">Cerrar sesion</a>
         </header>
         <table cellpadding="0" cellspacing="0" border="0" class="display dataTable" id="example" aria-describedby="example_info">
             <thead>
@@ -92,7 +92,7 @@ $datos = mysql_query("SELECT * FROM centros");
             <td><?php echo $fila['direccion']; ?></td>
             <td><?php echo $fila['descripcion']; ?></td>
             <td><img src="lib/<?php echo $fila['imagen']; ?>" style="width: 195px;height: 115px;"></td>
-            <td><a href="<?php echo $fila['url']; ?>"><?php echo $fila['url']; ?></a></td>
+            <td><a href="<?php echo $fila['url']; ?>" target="_blank" class="linkcerr2"><?php echo $fila['url']; ?></a></td>
             <td>
                 <a href="#" onclick="pop_up_edt(<?php echo $fila['id']; ?>);"><img src="img/edit.png" style="margin-right: 20px;"></a>
                 <a href="lib/borrar_f.php?id=<?php echo $fila['id']; ?>"><img src="img/delete.png"></a></td>
