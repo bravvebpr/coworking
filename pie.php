@@ -1,3 +1,4 @@
+
 <div class="pie" id="pie">
     <div class="contenedor_pie">
         <div class="pop-up"></div>
@@ -70,11 +71,22 @@
                     </div>
                     <div class="apartados_form2">
                         <span>Lugar de residencia de tu amigo:</span>
+                        <?php
+                        $conexion = mysql_connect("db496705092.db.1and1.com", "dbo496705092", "Anab5210");
+                        mysql_select_db("db496705092", $conexion);
+                        $datos = mysql_query("SELECT localidad FROM centros");
+                        ?>
                         <div class="localidad">
+
                             <select type="text" name="localidad" id="localidad">
                                 <option selected>--- Seleccionar ---</option>
-                                <option>Madrid</option>
-                                <option>Leganes</option>
+                            <?php
+                                while ($fila = mysql_fetch_array($datos)) {
+                            ?>
+                                    <option value="<?php echo $fila['localidad']; ?>"><?php echo $fila['localidad']; ?></option>
+                            <?php
+                                }mysql_close($conexion); 
+                            ?>
                             </select>
                         </div>
                         <br/><br/>
