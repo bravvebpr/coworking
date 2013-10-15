@@ -99,10 +99,8 @@
                 </div>
             </form>
             <div id="errores_pie">
-                <ul id="lista_errores_pie">
-                    <li>Error 1</li>
-                    <li>Error 2</li>
-                </ul>
+                <img class="cerrar_pop_errores" onclick="cerrar_errores();" src="img/mas_pop-up.png">
+                <ul id="lista_errores_pie"></ul>
             </div>
             <div class="limpiar"></div>
             <div id="hack_tw" style="float: left; margin-left: 45px;">

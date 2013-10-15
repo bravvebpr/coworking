@@ -39,7 +39,7 @@ $headers .= "From: info@alfadentalteam.es <info@alfadentalteam.es>\r\n";
 $mail = $_POST['correo'];
 $asunto = 'co-working.me este es el asunto';
 if (mail($mail, $asunto, $message, $headers)){
-    header('Location: ../filosofia.php');
+    header('Location: ../email_correcto.php');
 }
 else
-echo "Error al enviar correo, intentelo en unos minutos, gracas";?>
+    header('Location: ../email_incorrecto.php');
