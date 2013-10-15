@@ -15,7 +15,7 @@
         <div class="contenedor_formulario">
             <div class="logo"><img src="img/header.png"></div>
             <div class="formulario_login">
-                <form action="lib/inicio_sesion.php" method="POST">
+                <form action="lib/inicio_sesion.php" method="POST" id="jj" name="jj">
                     <span>Usuario</span><br/>
                     <input type="text" id="usuario" name="usuario" placeholder="Usuario"><br/><br/>
                     <span>Password:</span><br/>

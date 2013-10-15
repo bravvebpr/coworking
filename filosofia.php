@@ -13,7 +13,7 @@
     <body style="background: #f34d25; padding-top: 30px;">
         <div class="contenedor_historial">
             <?php include './cabecera.php'; ?>
-            <div class="contenedor_log">
+            <div class="contenedor_filo">
                 <div class="titulo_cont"> 
                     Pellentesque nec magna ac enim.
                 </div>
