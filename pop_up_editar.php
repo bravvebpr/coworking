@@ -16,7 +16,6 @@ $datos = mysql_query("SELECT * FROM centros WHERE id='{$_GET['id']}'");
     </head>
     <body>
         <div class="pop_up_panel">
-
             <div class="cabecera_pop_up">Editar un centro <div class="cerrar_pop" onclick="desaparecer_pop();">X</div></div>
             <form style="margin: 77px; margin-top: 50px; margin-bottom: 50px;" action="lib/editar_f.php" method="POST" enctype="multipart/form-data">
                 <?php $filae = mysql_fetch_array($datos) ?>

@@ -13,7 +13,7 @@
     <body style="background: #f34d25; padding-top: 30px;">
         <div class="contenedor_historial">
             <?php include './cabecera.php'; ?>
-            <div class="contenedor_log">
+            <div class="contenedor_histo">
                 <div class="titulo_cont">
                     <span class="interrogacion_1">¿</span>
                     NUNC PULVINAR IPSUM SED ELIT CONSEQUAT
