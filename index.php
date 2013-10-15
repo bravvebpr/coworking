@@ -19,7 +19,9 @@
     <body>
         <div class="cartel_1">
             <div class="contenedor_1">
+                
                <?php include './cabecera.php'; ?>
+                <div id="portada">
                 <div class="limpiar"></div>
                 <div class="titulo_1" id="ancla_1">
                    EL SER HUMANO TIENE 
@@ -40,6 +42,7 @@
                 <div class="limpiar"></div>
             </div>
         </div>
+    </div>
         <?php include 'cartel_2.php'; ?>
         <?php include 'cartel_3.php'; ?>
         <?php include 'cartel_4.php'; ?>

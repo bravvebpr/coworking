@@ -26,9 +26,7 @@ $datos = mysql_query("SELECT * FROM centros WHERE id='{$_GET['id']}'");
                 Telefono<br/><input type="text" name="tlf" value="<?php echo $filae['tlf']; ?>"><br/>
                 Direccion<br/><input type="text" name="direccion" value="<?php echo $filae['direccion']; ?>"><br/>
                 Descripcion<br/><textarea class="text_frm" name="descripcion"><?php echo $filae['descripcion']; ?></textarea><br/>
-                Subir Imagen:<p><span><input id="uploadImage" value="<?php echo $filae['imagen']; ?>" name="uploadImage" style="height: 150px" type="file" onChange="ver(newg.uploadImage.value);"/></span>
-
-                    <span style="position: absolute; margin-top: -86px; margin-left: 147px;">&Oacute; arrastrala aqui</span>
+                Subir Imagen:<p><span><input id="uploadImage" value="<?php echo $filae['imagen']; ?>" name="uploadImage" type="file" onChange="ver(newg.uploadImage.value);"/></span>
                     URL<br/><input type="text" name="url" value="<?php echo $filae['url']; ?>"><br/>
                     <input type="submit" value="GUARDAR" onclick="validarPop_up_editor(this.form);">
             </form> 

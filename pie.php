@@ -74,16 +74,16 @@
                         <?php
                         $conexion = mysql_connect("db496705092.db.1and1.com", "dbo496705092", "Anab5210");
                         mysql_select_db("db496705092", $conexion);
-                        $datos = mysql_query("SELECT localidad FROM centros");
+                        $datos = mysql_query("SELECT id, localidad FROM centros");
                         ?>
                         <div class="localidad">
 
                             <select type="text" name="localidad" id="localidad">
-                                <option selected>--- Seleccionar ---</option>
+                                <option value="">--- Seleccionar ---</option>
                             <?php
                                 while ($fila = mysql_fetch_array($datos)) {
                             ?>
-                                    <option value="<?php echo $fila['localidad']; ?>"><?php echo $fila['localidad']; ?></option>
+                                    <option value="<?php echo $fila['id']; ?>"><?php echo $fila['localidad']; ?></option>
                             <?php
                                 }mysql_close($conexion); 
                             ?>
@@ -98,6 +98,12 @@
                     <input type="button" value="Ayudar a mi amigo" onclick="validarForm(this.form);">
                 </div>
             </form>
+            <div id="errores_pie">
+                <ul id="lista_errores_pie">
+                    <li>Error 1</li>
+                    <li>Error 2</li>
+                </ul>
+            </div>
             <div class="limpiar"></div>
             <div id="hack_tw" style="float: left; margin-left: 45px;">
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://alfadentalteam.es" data-lang="es">Twittear</a>

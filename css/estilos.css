@@ -2,6 +2,9 @@
 @font-face {font-family:"Allstar Regular";src:url("../fonts/All_Star_Resort.eot?") format("eot"),url("../fonts/All_Star_Resort.woff") format("woff"),url("../fonts/All_Star_Resort.ttf") format("truetype"),url("../fonts/All_Star_Resort.svg#Allstar-Regular") format("svg");font-weight:normal;font-style:normal;}
 *:focus {outline: none;}
 .limpiar{clear: both;}
+#portada{
+    display: none;
+}
 .cartel_1{
     background: #f34d25;
     width: 100%;
@@ -44,7 +47,7 @@
 }
 .contenedor_1{
     width: 1000px;
-    height: 772px;
+    height: 813px;
     margin: 0 auto;
 }
 .titulo_1{
@@ -321,6 +324,7 @@
 .lavadora_5{
     margin-top: -170px;
     margin-left: 1px!important;
+    left: 0px;
 }
 .dormido{
     margin-top: -132px;
@@ -381,7 +385,7 @@
     left: 0px;
     margin-top: -34px;
     display: none;
-    height: 1185px;
+    height: 1225px;;
 }
 .imagen_pop-up{
     position: absolute;
@@ -662,4 +666,19 @@
     width: 1000px;
     margin: 0 auto;
     background: #f34d25;
+}
+#errores_pie{
+    background: #F34D25;
+    position: absolute;
+    left: 0px;
+    margin-top: -350px;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-top: 10px;
+    color: #FFF;
+    border-radius: 0px 6px 6px 0px;
+    -moz-border-radius: 0px 6px 6px 0px;
+    -webkit-border-radius: 0px 6px 6px 0px;
+    box-shadow: 0px 2px 20px #333;
+    border: solid 1px #333;
 }
