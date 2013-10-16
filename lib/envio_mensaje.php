@@ -4,7 +4,7 @@ $headers = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 $headers .= 'From: Co-working.me <' . $_POST['email'] . '>\r\n';
 $mail = $_POST['email'];
-$asunto ='<p><strong style="font-size:23px;">' . $_POST['asunto'] . '</strong></p>';
+$asunto = $_POST['asunto'];
 
 if($_POST['number']=="")
     $sw_nn = "No ha dejado numero";

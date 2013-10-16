@@ -30,6 +30,10 @@
                     </div>
                 </form>
             </div>
+            <div id="errores_pie" style="background: #B7F5EC;color: #F34D25;">
+                <img class="cerrar_pop_errores" onclick="cerrar_errores();" src="img/mas_pop-up.png">
+                <ul id="lista_errores_pie"></ul>
+            </div>
         </div>
     </body>
 </html>

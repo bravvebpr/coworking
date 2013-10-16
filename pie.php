@@ -66,16 +66,19 @@
                 <input type="hidden" name="img_select" id="img_select" value="">
                 <div class="formulary">
                     <div class="apartados_form1">
-                        <span>Tu nombre:</span> <input type="text" style="width: 331px;" name="nombre_p" id="nombre_p"><br/><br/>
-                        <span>El nombre de tu amigo:</span> <input type="text" style="width: 258px;" name="nombre_a" id="nombre_a"><br/>
+                        <span>Tu nombre:</span> <input type="text" style="width: 331px;" name="nombre_p" id="nombre_p">
+                        <span>Tu email:</span> <input type="text" style="width: 258px;" name="tuemail" id="tuemail">
                     </div>
                     <div class="apartados_form2">
-                        <span>Lugar de residencia de tu amigo:</span>
+                        <span style="margin-left: 44px;">El nombre de tu amigo:</span> <input type="text" style="width: 258px;" name="nombre_a" id="nombre_a">
+                        <span style="margin-left: 44px;">El email de tu amigo:</span> <input type="text" style="width: 252px;;" name="correo" id="correo">
                         <?php
                         $conexion = mysql_connect("db496705092.db.1and1.com", "dbo496705092", "Anab5210");
                         mysql_select_db("db496705092", $conexion);
                         $datos = mysql_query("SELECT id, localidad FROM centros");
                         ?>
+                        <div class="limpiar"></div>
+                        <span style="float: left; margin-top: 20px; margin-left: 44px;">Lugar de residencia de tu amigo:</span>
                         <div class="localidad">
 
                             <select type="text" name="localidad" id="localidad">
@@ -89,8 +92,7 @@
                             ?>
                             </select>
                         </div>
-                        <br/><br/>
-                        <span>El email de tu amigo:</span> <input type="text" style="width: 252px;;" name="correo" id="correo"><br/>
+                        <br/><br/>                        
                     </div>
                 </div>
                 <div class="limpiar"></div>

@@ -482,7 +482,7 @@
    
 }
 .apartados_form1{
-    float: left;
+    margin-bottom: 20px;
 }
 .apartados_form1 span{
     font-size: 15px;
@@ -504,7 +504,6 @@
     border: solid 1px #17A8D3;
 }
 .apartados_form2{
-    float: right;
     margin-right: 60px;
 }
 .apartados_form2 span{
@@ -573,24 +572,28 @@
     width: 23px;
 }
 .localidad select{
-    background: url(../img/arrow.png) no-repeat 141px 0px #DEE8EB !important;
-   -moz-appearance: none;
-   -webkit-appearance: none;
-   appearance: none;
-   float: right;
-   text-align: center;
-   width: 170px;
-   border-radius: 7px;
-   -moz-border-radius: 7px;
-   -webkit-border-radius: 7px;
-   border: solid 1px #DEE8EB;
-   padding-left: 7px;
-   padding-top: 2px;
-   padding-bottom: 2px;
+    background: url(../img/arrow.png) no-repeat 141px -2px #DEE8EB !important;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    float: right;
+    text-align: center;
+    width: 170px;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border: solid 1px #DEE8EB;
+    padding-left: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 15px;
+    color: #656565;
  }
  .localidad{
-    margin-top: -21px;
+    margin-top: 16px;
     margin-bottom: 8px;
+    margin-left: 41px;
+    float: left;
  }
  
 /*-----------------------------------------------------------------------*/
@@ -700,8 +703,8 @@
     -moz-border-radius:7px;
     -webkit-border-radius:7px;
     padding-bottom: 20px;
-    box-shadow: 0px 2px 34px #333;
-    border: solid 1px #333;
+    box-shadow: 2px 2px 25px #7C1616;
+    border: solid 1px #7C1616;
     margin-bottom: 100px;
 }
 
@@ -714,8 +717,8 @@
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
-    box-shadow: 0px 2px 34px #333;
-    border: solid 1px #333;
+    box-shadow: 2px 2px 25px #7C1616;
+    border: solid 1px #7C1616;
     margin: auto;
     margin-top: 15%;
 }
@@ -728,6 +731,9 @@
     -moz-border-radius:7px;
     -webkit-border-radius:7px;
     padding-bottom: 20px;
-    box-shadow: 0px 2px 34px #333;
-    border: solid 1px #333;
+    box-shadow: 2px 2px 25px #7C1616;
+    border: solid 1px #7C1616;
+}
+#lista_errores_pie li{
+    list-style-image: url('../img/error_p.png');
 }
