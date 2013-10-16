@@ -13,7 +13,7 @@
     <body style="background: #f34d25; padding-top: 30px;">
         <div class="contenedor_contacto">
             <?php include './cabecera.php'; ?>
-            <div class="cont_form">
+             <div class="cont_form">
                 <form action="lib/envio_mensaje.php" method="post">
                     <div class="apartados_form3">
                         <span>Email:</span><br/> <input type="text" style="width: 345px;" name="email" id="email" placeholder="Email"><br/><br/>
