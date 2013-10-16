@@ -7,8 +7,8 @@ $filae = mysql_fetch_array($datos);
 
 mysql_close($conexion);
 if($_POST['img_select']=="correo2"){require './correo2.php';$archivo = $cartel2;}
-if($_POST['img_select']=="correo3"){require './correo3.php';$archivo = $cartel2;}
-if($_POST['img_select']=="correo4"){require './correo4.php';$archivo = $cartel2;}
+if($_POST['img_select']=="correo3"){require './correo4.php';$archivo = $cartel2;}
+if($_POST['img_select']=="correo4"){require './correo3.php';$archivo = $cartel2;}
 if($_POST['img_select']=="correo5"){require './correo5.php';$archivo = $cartel2;}
 $uniqueid = uniqid('np');
 $headers = "MIME-Version: 1.0\r\n";
