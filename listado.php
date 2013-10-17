@@ -7,6 +7,8 @@ if ($_SESSION["usuario"] == "")
 $conexion = mysql_connect("db496705092.db.1and1.com", "dbo496705092", "Anab5210");
 mysql_select_db("db496705092", $conexion);
 $datos = mysql_query("SELECT * FROM centros");
+$reg_emails = mysql_query("SELECT * FROM envios");
+mysql_close($conexion);
 ?>
 <!DOCTYPE html>
 <html>
@@ -29,6 +31,10 @@ $datos = mysql_query("SELECT * FROM centros");
                     "bJQueryUI": true,
                     "sPaginationType": "full_numbers"
                 });
+                oTable = $('#emails').dataTable({
+                    "bJQueryUI": true,
+                    "sPaginationType": "full_numbers"
+                });
             });
         </script>
         <style>
@@ -48,6 +54,7 @@ $datos = mysql_query("SELECT * FROM centros");
             <img src="img/header.png" style="margin: 0 auto;"><input class="btn_az" style="float: right;margin-top: 37px;margin-right: 37px;" type="button" id="add_fila" value="+ Crear centro" onclick="pop_up_add();">
             <a href="lib/cerrar_sesion.php" style="float: left; margin: 2%;" class="linkcerr">Cerrar sesion</a>
         </header>
+        <div class="titulo_cont_tab"> Tabla de centros </div> 
         <table cellpadding="0" cellspacing="0" border="0" class="display dataTable" id="example" aria-describedby="example_info">
             <thead>
                 <tr role="row">
@@ -98,8 +105,49 @@ $datos = mysql_query("SELECT * FROM centros");
                 <a href="lib/borrar_f.php?id=<?php echo $fila['id']; ?>"><img src="img/delete.png"></a></td>
         </tr>
         
-    <?php }mysql_close($conexion);  ?>
+    <?php } ?>
 </tbody>
 </table>
+        
+    <br/><br/><br/>    
+ <div class="titulo_cont_tab"> Tabla de emails </div>      
+<table cellpadding="0" cellspacing="0" border="0" class="display dataTable" id="emails" aria-describedby="example_info">
+            <thead>
+                <tr role="row">
+                    <th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1"  aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending">
+            <div class="DataTables_sort_wrapper">ID</div>
+        </th>
+        <th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending">
+        <div class="DataTables_sort_wrapper">Email</div>
+    </th>
+    <th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending">
+    <div class="DataTables_sort_wrapper">Numero emails</div>
+</th>
+<th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending" >
+<div class="DataTables_sort_wrapper">Localidad</div>
+</th>
+</tr>
+</thead>
+<tbody role="alert" aria-live="polite" aria-relevant="all">
+<?php
+    while ($fila_em = mysql_fetch_array($reg_emails)) {
+        ?>
+        <tr id="<?php echo $fila_em['id']; ?>">
+            <td><?php echo $fila_em['id']; ?></td>
+            <td><?php echo $fila_em['correo']; ?></td>
+            <td><?php echo $fila_em['numeros_envio']; ?></td>
+            <?php
+                $conexion = mysql_connect("db496705092.db.1and1.com", "dbo496705092", "Anab5210");
+                mysql_select_db("db496705092", $conexion);
+                $datos_loc = mysql_query("SELECT localidad FROM centros WHERE id={$fila_em['localidad']}");
+                mysql_close($conexion);
+            ?>
+            <?php $fila_loc = mysql_fetch_array($datos_loc) ?>
+            <td><?php echo $fila_loc['localidad']; ?></td>
+        </tr>
+        
+<?php } ?>
+</tbody>
+</table>        
 </body>
 </html>

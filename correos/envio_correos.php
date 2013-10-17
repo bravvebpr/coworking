@@ -1,8 +1,21 @@
 <?php
 $conexion = mysql_connect("db496705092.db.1and1.com", "dbo496705092", "Anab5210");
 mysql_select_db("db496705092", $conexion);
+$env = mysql_query("SELECT correo, localidad FROM  `envios` WHERE  `correo`='{$_POST['tuemail']}' and `localidad`='{$_POST['localidad']}'");
+$u=mysql_fetch_array($env);
+if($u['correo']==""){
+    mysql_query("INSERT INTO  `envios` (`correo`, `numeros_envio`, `localidad`) VALUES ('{$_POST['tuemail']}', '1', '{$_POST['localidad']}')");
+   }
+else{
+    $n_env = mysql_query("SELECT id, numeros_envio FROM envios where correo='{$_POST['tuemail']}' and `localidad`='{$_POST['localidad']}'");
+    $n_e=mysql_fetch_array($n_env);
+    $n=$n_e['numeros_envio'];
+    $n++;
+    mysql_query("UPDATE  `envios` SET  `numeros_envio` =  $n WHERE  `id` ={$n_e['id']}");
+}
+
 $datos = mysql_query("SELECT nombre, tlf, direccion, descripcion, imagen, url FROM centros where id='{$_POST['localidad']}'");
-$error = mysql_error();
+
 $filae = mysql_fetch_array($datos);
 
 mysql_close($conexion);
