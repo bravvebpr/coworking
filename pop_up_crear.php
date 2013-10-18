@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="css/estilos_panel.css">
         <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
         <script src="lib/panel_gest.js"></script>
+        <script src="lib/validar.js"></script>
     </head>
     <body>
         <div class="pop_up_panel">
@@ -22,7 +23,7 @@
                     Subir Imagen:</p><p><span><input id="uploadImage" name="uploadImage" type="file" onChange="ver(newg.uploadImage.value);"/></span>
                 </div>
                 URL<br/><input type="text" name="url"><br/>
-                <input type="submit" value="GUARDAR" onclick="validarPop_up_editor(this.form);">
+                <input type="button" value="GUARDAR" onclick="validarPop_up_editor(this.form);">
             </form>
         </div>
     </body>

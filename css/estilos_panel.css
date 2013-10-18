@@ -187,3 +187,12 @@ A.linkcerr2:visited {
     -webkit-transition: color 0.4s;
 } 
 A.linkcerr2:hover {color: #62D5F7; text-decoration: none;}
+.titulo_cont_tab{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
