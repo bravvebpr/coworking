@@ -13,7 +13,13 @@ else{
     $n++;
     mysql_query("UPDATE  `envios` SET  `numeros_envio` =  $n WHERE  `id` ={$n_e['id']}");
 }
-
+$cadena = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
+$longitudCadena=strlen($cadena);
+$pass = "";
+$longitudPass=10;
+for($i=1 ; $i<=$longitudPass ; $i++){
+$pos=rand(0,$longitudCadena-1);
+$codigo_cup .= substr($cadena,$pos,1);}
 $datos = mysql_query("SELECT nombre, tlf, direccion, descripcion, imagen, url FROM centros where id='{$_POST['localidad']}'");
 
 $filae = mysql_fetch_array($datos);

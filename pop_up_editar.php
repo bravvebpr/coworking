@@ -13,6 +13,7 @@ $datos = mysql_query("SELECT * FROM centros WHERE id='{$_GET['id']}'");
         <link rel="stylesheet" type="text/css" href="css/estilos_panel.css">
         <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
         <script src="lib/panel_gest.js"></script>
+        <script src="lib/validar.js"></script>
     </head>
     <body>
         <div class="pop_up_panel">
@@ -27,7 +28,7 @@ $datos = mysql_query("SELECT * FROM centros WHERE id='{$_GET['id']}'");
                 Descripcion<br/><textarea class="text_frm" name="descripcion"><?php echo $filae['descripcion']; ?></textarea><br/>
                 Subir Imagen:<p><span><input id="uploadImage" value="<?php echo $filae['imagen']; ?>" name="uploadImage" type="file" onChange="ver(newg.uploadImage.value);"/></span>
                     URL<br/><input type="text" name="url" value="<?php echo $filae['url']; ?>"><br/>
-                    <input type="submit" value="GUARDAR" onclick="validarPop_up_editor(this.form);">
+                    <input type="button" value="GUARDAR" onclick="validarPop_up_editor(this.form);">
             </form> 
         </div>
     </body>

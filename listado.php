@@ -99,7 +99,7 @@ mysql_close($conexion);
             <td><?php echo $fila['direccion']; ?></td>
             <td><?php echo $fila['descripcion']; ?></td>
             <td><img src="lib/<?php echo $fila['imagen']; ?>" style="width: 195px;height: 115px;"></td>
-            <td><a href="<?php echo $fila['url']; ?>" target="_blank" class="linkcerr2"><?php echo $fila['url']; ?></a></td>
+            <td><a href="<?php echo $fila['url']; ?>" target="_blank" class="linkcerr2"><?php echo substr($fila['url'], 7); ?></a></td>
             <td>
                 <a href="#" onclick="pop_up_edt(<?php echo $fila['id']; ?>);"><img src="img/edit.png" style="margin-right: 20px;"></a>
                 <a href="lib/borrar_f.php?id=<?php echo $fila['id']; ?>"><img src="img/delete.png"></a></td>
