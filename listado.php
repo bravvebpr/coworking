@@ -15,6 +15,7 @@ mysql_close($conexion);
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>co-working.me</title>
+        <link rel="icon" type="image/png" href="img/favicon.png">
         <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/estilos_panel.css">
