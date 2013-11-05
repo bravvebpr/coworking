@@ -103,7 +103,7 @@ mysql_close($conexion);
             <td><a href="<?php echo $fila['url']; ?>" target="_blank" class="linkcerr2"><?php echo substr($fila['url'], 7); ?></a></td>
             <td>
                 <a href="#" onclick="pop_up_edt(<?php echo $fila['id']; ?>);"><img src="img/edit.png" style="margin-right: 20px;"></a>
-                <a href="lib/borrar_f.php?id=<?php echo $fila['id']; ?>"><img src="img/delete.png"></a></td>
+                <a href="#" onclick="eliminar_ft(<?php echo $fila['id'];?>);"><img src="img/delete.png"></a></td>
         </tr>
         
     <?php } ?>
@@ -149,6 +149,11 @@ mysql_close($conexion);
         
 <?php } ?>
 </tbody>
-</table>        
+</table>  
+ <div class="pop_up_adbr" id="pop_up_adbr">
+     ¿Seguro que deseas elimar el registro?<br/>
+     <a href="#" return="false" id="eliminar" class="si_eliminar">Si, eliminar</a>
+     <a href="#" return="false" onclick="cerrar_pb();" class="no_borrar">No</a>
+ </div>
 </body>
 </html>
