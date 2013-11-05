@@ -3,64 +3,98 @@
 $cartel2='<!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Lavadoras</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body style="background: #e1eed3">
-        <table style="width: 800px; margin:0 auto; padding-top: 30px;" >
-        <tr>
-            <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
-            <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
-            <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
-            <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
-        </tr>
-        <tr>
-            <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
-            <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
-            <td><img src="http://alfadentalteam.es/correos/img/lavadoras11.png" alt="">
-            </td>
-            <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
-        </tr>
-        <tr>
-            <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
-            <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
-            <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
-            <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
-        </tr>  
-        <tr>
-            <td colspan="6" style="padding-top: 135px;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae ligula tincidunt, sodales elit non, tempus purus. Quisque eget purus congue, luctus justo sit amet, sagittis metus. Fusce cursus, tortor in lacinia vehicula, arcu erat viverra metus, id ultricies ante sapien at dolor. Nullam et libero varius, mattis quam nec, rutrum orci. In ac ipsum dapibus est tempor pharetra vitae sit amet magna. Phasellus quis mauris sollicitudin, posuere enim accumsan, varius arcu. Mauris gravida est vel ligula suscipit fringilla. Aliquam erat volutpat. Nunc viverra tincidunt orci ut tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse ut justo eget urna ultricies tempor. Nam sit amet faucibus mauris. Aenean interdum mauris purus, tincidunt porta nisi euismod sed.
-                Sed sollicitudin vestibulum est eu tincidunt. Aliquam in ante rutrum, pulvinar lorem at, ultrices sem. Morbi tempor volutpat convallis. Aliquam erat volutpat. Praesent dapibus dui nec commodo volutpat. Integer ullamcorper a dolor ac scelerisque. Curabitur vehicula nisi fermentum nulla eleifend, sed ullamcorper lacus porttitor. Sed neque nulla, accumsan at feugiat ut, feugiat a massa. Duis ac dignissim felis. Nam vel faucibus metus.
-                Vivamus blandit egestas adipiscing. Morbi aliquet eu enim eget condimentum. Nam et bibendum tellus. Curabitur faucibus lectus at enim feugiat placerat. Mauris mattis ligula velit, et volutpat velit facilisis et. In vel massa convallis, commodo nibh non, porttitor orci. Vestibulum vestibulum felis at leo sodales ultricies. Mauris rhoncus vehicula ornare. Donec est ipsum, porta ac neque quis, ornare imperdiet mi. Nulla sit amet vehicula eros. Donec iaculis ante et risus blandit, ut euismod ligula tincidunt. Donec condimentum libero sit amet pharetra condimentum. Praesent eget tortor gravida, rutrum turpis vel, consectetur metus. Sed laoreet erat ante. Mauris eget elit urna.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ultricies molestie magna eu condimentum. Suspendisse sagittis dignissim felis a facilisis. In a ipsum arcu. Integer non auctor est, sed consequat turpis. Aliquam erat volutpat. Proin non laoreet sapien. Donec vitae posuere quam. Nullam sollicitudin turpis odio, quis elementum leo pretium vel. Etiam accumsan sodales sapien eu rhoncus. Maecenas sit amet sapien nec diam hendrerit congue eu at enim. Maecenas tempor egestas arcu, a ultricies eros dignissim sed. Praesent tristique orci libero, quis dignissim ante interdum id. Nam eu malesuada ipsum. Suspendisse dictum ipsum ac arcu venenatis fringilla. In id quam ultricies nulla porttitor dictum.
-                Vivamus rhoncus diam et sagittis vulputate. Maecenas nisl lectus, pharetra ut venenatis sit amet, fringilla sodales elit. Nunc eget vulputate turpis, a mollis est. Nullam rhoncus ac ipsum sed pharetra. Fusce in risus laoreet nulla mattis mollis at a nunc. Maecenas egestas ultrices tellus nec ornare. Duis tempor tellus venenatis urna vulputate, at venenatis odio mollis.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae ligula tincidunt, sodales elit non, tempus purus. Quisque eget purus congue, luctus justo sit amet, sagittis metus. Fusce cursus, tortor in lacinia vehicula, arcu erat viverra metus, id ultricies ante sapien at dolor. Nullam et libero varius, mattis quam nec, rutrum orci. In ac ipsum dapibus est tempor pharetra vitae sit amet magna. Phasellus quis mauris sollicitudin, posuere enim accumsan, varius arcu. Mauris gravida est vel ligula suscipit fringilla. Aliquam erat volutpat. Nunc viverra tincidunt orci ut tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse ut justo eget urna ultricies tempor. Nam sit amet faucibus mauris. Aenean interdum mauris purus, tincidunt porta nisi euismod sed.
-                Sed sollicitudin vestibulum est eu tincidunt. Aliquam in ante rutrum, pulvinar lorem at, ultrices sem. Morbi tempor volutpat convallis. Aliquam erat volutpat. Praesent dapibus dui nec commodo volutpat. Integer ullamcorper a dolor ac scelerisque. Curabitur vehicula nisi fermentum nulla eleifend, sed ullamcorper lacus porttitor. Sed neque nulla, accumsan at feugiat ut, feugiat a massa. Duis ac dignissim felis. Nam vel faucibus metus.
-                Vivamus blandit egestas adipiscing. Morbi aliquet eu enim eget condimentum. Nam et bibendum tellus. Curabitur faucibus lectus at enim feugiat placerat. Mauris mattis ligula velit, et volutpat velit facilisis et. In vel massa convallis, commodo nibh non, porttitor orci. Vestibulum vestibulum felis at leo sodales ultricies. Mauris rhoncus vehicula ornare. Donec est ipsum, porta ac neque quis, ornare imperdiet mi. Nulla sit amet vehicula eros. Donec iaculis ante et risus blandit, ut euismod ligula tincidunt. Donec condimentum libero sit amet pharetra condimentum. Praesent eget tortor gravida, rutrum turpis vel, consectetur metus. Sed laoreet erat ante. Mauris eget elit urna.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ultricies molestie magna eu condimentum. Suspendisse sagittis dignissim felis a facilisis. In a ipsum arcu. Integer non auctor est, sed consequat turpis. Aliquam erat volutpat. Proin non laoreet sapien. Donec vitae posuere quam. Nullam sollicitudin turpis odio, quis elementum leo pretium vel. Etiam accumsan sodales sapien eu rhoncus. Maecenas sit amet sapien nec diam hendrerit congue eu at enim. Maecenas tempor egestas arcu, a ultricies eros dignissim sed. Praesent tristique orci libero, quis dignissim ante interdum id. Nam eu malesuada ipsum. Suspendisse dictum ipsum ac arcu venenatis fringilla. In id quam ultricies nulla porttitor dictum.
-                Vivamus rhoncus diam et sagittis vulputate. Maecenas nisl lectus, pharetra ut venenatis sit amet, fringilla sodales elit. Nunc eget vulputate turpis, a mollis est. Nullam rhoncus ac ipsum sed pharetra. Fusce in risus laoreet nulla mattis mollis at a nunc. Maecenas egestas ultrices tellus nec ornare. Duis tempor tellus venenatis urna vulputate, at venenatis odio mollis.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae ligula tincidunt, sodales elit non, tempus purus. Quisque eget purus congue, luctus justo sit amet, sagittis metus. Fusce cursus, tortor in lacinia vehicula, arcu erat viverra metus, id ultricies ante sapien at dolor. Nullam et libero varius, mattis quam nec, rutrum orci. In ac ipsum dapibus est tempor pharetra vitae sit amet magna. Phasellus quis mauris sollicitudin, posuere enim accumsan, varius arcu. Mauris gravida est vel ligula suscipit fringilla. Aliquam erat volutpat. Nunc viverra tincidunt orci ut tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse ut justo eget urna ultricies tempor. Nam sit amet faucibus mauris. Aenean interdum mauris purus, tincidunt porta nisi euismod sed.
-                Sed sollicitudin vestibulum est eu tincidunt. Aliquam in ante rutrum, pulvinar lorem at, ultrices sem. Morbi tempor volutpat convallis. Aliquam erat volutpat. Praesent dapibus dui nec commodo volutpat. Integer ullamcorper a dolor ac scelerisque. Curabitur vehicula nisi fermentum nulla eleifend, sed ullamcorper lacus porttitor. Sed neque nulla, accumsan at feugiat ut, feugiat a massa. Duis ac dignissim felis. Nam vel faucibus metus.
-                Vivamus blandit egestas adipiscing. Morbi aliquet eu enim eget condimentum. Nam et bibendum tellus. Curabitur faucibus lectus at enim feugiat placerat. Mauris mattis ligula velit, et volutpat velit facilisis et. In vel massa convallis, commodo nibh non, porttitor orci. Vestibulum vestibulum felis at leo sodales ultricies. Mauris rhoncus vehicula ornare. Donec est ipsum, porta ac neque quis, ornare imperdiet mi. Nulla sit amet vehicula eros. Donec iaculis ante et risus blandit, ut euismod ligula tincidunt. Donec condimentum libero sit amet pharetra condimentum. Praesent eget tortor gravida, rutrum turpis vel, consectetur metus. Sed laoreet erat ante. Mauris eget elit urna.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ultricies molestie magna eu condimentum. Suspendisse sagittis dignissim felis a facilisis. In a ipsum arcu. Integer non auctor est, sed consequat turpis. Aliquam erat volutpat. Proin non laoreet sapien. Donec vitae posuere quam. Nullam sollicitudin turpis odio, quis elementum leo pretium vel. Etiam accumsan sodales sapien eu rhoncus. Maecenas sit amet sapien nec diam hendrerit congue eu at enim. Maecenas tempor egestas arcu, a ultricies eros dignissim sed. Praesent tristique orci libero, quis dignissim ante interdum id. Nam eu malesuada ipsum. Suspendisse dictum ipsum ac arcu venenatis fringilla. In id quam ultricies nulla porttitor dictum.
-                Vivamus rhoncus diam et sagittis vulputate. Maecenas nisl lectus, pharetra ut venenatis sit amet, fringilla sodales elit. Nunc eget vulputate turpis, a mollis est. Nullam rhoncus ac ipsum sed pharetra. Fusce in risus laoreet nulla mattis mollis at a nunc. Maecenas egestas ultrices tellus nec ornare. Duis tempor tellus venenatis urna vulputate, at venenatis odio mollis.
-            </td>
-        </tr>
-        
-        </table>
+        <table style="background: #e1eed3; width: 800px; margin:0 auto;" >
+            <tbody>
+                <tr>
+                    <td colspan="4" style="font-size: 18px; color:#333; padding-bottom: 40px;">
+                        <strong>Hola '.$_POST['nombre_a'].',<br/><br/>
 
-        <table style="width: 800px; margin: 0 auto;">
-                <tr>
-                    <td rowspan="3"><img src="http://alfadentalteam.es/lib/'.$filae['imagen'].'"></td>
-                    <td>' . $filae['nombre'] . '</td>    
+                            Soy '.$_POST['nombre_p'].', te mando este email porque tengo algo importante que decirte, 
+                            pues bien, como sabes el día tiene 8 horas de máximo rendimiento y 
+                            aunque yo se que eres capad de utilizar ese tiempo en...</strong>
+                    </td>
                 </tr>
                 <tr>
-                    <td>' . $filae['direccion'] . '</td>
-                    <td>' . $filae['url'] . '</td>    
+                    <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
+                    <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
+                    <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
+                    <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
                 </tr>
                 <tr>
-                    <td>' . $filae['descripcion'] . '</td>    
+                    <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
+                    <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
+                    <td><img src="http://alfadentalteam.es/correos/img/lavadoras11.png" alt="">
+                    </td>
+                    <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
                 </tr>
+                <tr>
+                    <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
+                    <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
+                    <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
+                    <td><img src="http://alfadentalteam.es/correos/img/lavadora.png" alt=""></td>
+                </tr>  
+                <tr>
+                    <td colspan="4" style="padding-top: 20px; color: #111;">
+                        <p style="font-size: 18px;"> ... que es algo que no todo el mundo es capad de hacer ;) , te recomiendo que utilices esas horas en algo más productivo, 
+                            como trabajar en tu proyecto emprendedor, en el que todos confiamos y te apoyamos, por eso, he decidido regalarte algo.<br/><br/>
+
+                            Hay un espacio de coworking en tu ciudad que acoge a emprendedores como tú, ofreciéndoles un lugar de trabajo totalmente equipado con sala de reuniones,
+                            recepción, ADSL, limpieza, etc.. y donde surgen diversas sinergias, colaboraciones y amistades entre sus miembros.<br/><br/>
+
+                            Me gustaría que lo probases, por eso te regalo <span style="color: #0087B9;">15 días totalmente gratuitos</span> en:<br/><br/>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 795px; margin:0 auto; background: #e27130; border: solid 10px #e27130;  border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px" >
+            <tbody>
+                <tr>
+                    <td rowspan="4">
+                        <img style="margin-bottom: -4px; margin-left: 10px;" src="http://alfadentalteam.es/lib/'.$filae['imagen'].'" alt="imagen">
+                    </td>
+                    <td style="padding-left: 15px;">
+                        <span style="color: #141414; font-weight: bold; font-size: 15px;">'.$filae['nombre'].'</span><br/>
+                        <a href="'.$filae['url'].'" style="color: #141414; text-decoration: none; font-weight: bold; font-size: 15px;">'.substr($filae['url'], 7).'</a><br/>
+                    </td>
+                    <td style="background: #333;width: 197px; text-align: center; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding-left: 10px; padding-right: 10px;">
+                        <strong style="color: #fff; font-size: 22px;">CUPON:&nbsp;&nbsp;'.$codigo_cup.'</strong>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span style="padding-left: 15px; color: #141414; font-weight: bold; font-size: 15px;">'.$filae['direccion'].'</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="color: #fff; font-size: 15px; padding-left: 15px; padding-top: 15px;">
+                        <strong>'.$filae['descripcion'].'</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align: right;">
+                        <span style="font-weight: bold; color: #000;">Cupon personal para '.$_POST['nombre_a'].'</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="background: #e1eed3; width: 800px; margin:0 auto;">
+            <tbody>
+                <tr>
+                    <td style="font-size: 18px; padding-top: 20px;color: #333; padding-bottom: 50px;">
+                        <strong>Imprime este cupón para presentarlo en “espacio coworking” y recibir tu regalo.
+                            No lo dudes, la red de contactos es importantisima para todo emprendedor,
+                            salir de casa te ayudará a centrarte en tu trabajo.
+                        </strong>
+                    </td>
+                </tr>
+            </tbody>
         </table>
     </body>
 </html>
