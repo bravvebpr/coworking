@@ -22,7 +22,7 @@
                     <span>Password:</span><br/>
                     <input type="password" id="password" name="password" placeholder="Contrase&ntilde;a"><br/><br/>
                     <div class="limpiar"></div>
-                    <input type="submit" value="Entrar" onclick="validarLogin(this.form);">
+                    <input type="button" value="Entrar" onclick="validarLogin(this.form);">
                 </form>
             </div>
         </div>

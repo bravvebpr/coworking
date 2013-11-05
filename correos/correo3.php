@@ -7,7 +7,7 @@ $cartel2='<!DOCTYPE html>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body style="background: #e1eed3">
-        <table style="background: #e1eed3; width: 800px; margin:0 auto;" >
+        <table style="background: #e1eed3; width: 800px; margin:0 auto; margin-top: 57px;" >
             <tbody>
                 <tr>
                     <td colspan="4" style="font-size: 18px; color:#333; padding-bottom: 40px;">
